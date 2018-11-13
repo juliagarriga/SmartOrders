@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fe:Facturae xmlns:fe="http://www.facturae.es/Facturae/2009/v3.2/Facturae">
+
+    <FileHeader>
+
+        <SchemaVersion>
+3.2
+        </SchemaVersion>
+
+        <Modality>
+I
+        </Modality>
+
+        <InvoiceIssuerType>
+EM
+        </InvoiceIssuerType>
+
+        <Batch>
+
+            <BatchIdentifier>
+B66429127Emit-
+            </BatchIdentifier>
+
+            <InvoicesCount>
+1
+            </InvoicesCount>
+
+            <TotalInvoicesAmount>
+
+                <TotalAmount>
+3025.00
+                </TotalAmount>
+            </TotalInvoicesAmount>
+
+            <TotalOutstandingAmount>
+
+                <TotalAmount>
+3025.00
+                </TotalAmount>
+            </TotalOutstandingAmount>
+
+            <TotalExecutableAmount>
+
+                <TotalAmount>
+3025.00
+                </TotalAmount>
+            </TotalExecutableAmount>
+
+            <InvoiceCurrencyCode>
+EUR
+            </InvoiceCurrencyCode>
+        </Batch>
+    </FileHeader>
+
+    <Parties>
+
+        <SellerParty>
+
+            <TaxIdentification>
+
+                <PersonTypeCode>
+J
+                </PersonTypeCode>
+
+                <ResidenceTypeCode>
+R
+                </ResidenceTypeCode>
+
+                <TaxIdentificationNumber>
+B66429127
+                </TaxIdentificationNumber>
+            </TaxIdentification>
+
+            <AdministrativeCentres>
+
+                <AdministrativeCentre>
+
+                    <CentreCode>
+L01080351
+                    </CentreCode>
+
+                    <RoleTypeCode>
+01
+                    </RoleTypeCode>
+
+                    <AddressInSpain>
+
+                        <Address>
+PLAÇA DE L'AJUNTAMENT
+                        </Address>
+
+                        <PostCode>
+08370
+                        </PostCode>
+
+                        <Town>
+CALELLA
+                        </Town>
+
+                        <Province>
+BARCELONA
+                        </Province>
+
+                        <CountryCode>
+ESP
+                        </CountryCode>
+                    </AddressInSpain>
+
+                    <CentreDescription>
+INTERVENCIÓ GENERAL
+                    </CentreDescription>
+                </AdministrativeCentre>
+
+                <AdministrativeCentre>
+
+                    <CentreCode>
+L01080351
+                    </CentreCode>
+
+                    <RoleTypeCode>
+02
+                    </RoleTypeCode>
+
+                    <AddressInSpain>
+
+                        <Address>
+PLAÇA DE L'AJUNTAMENT
+                        </Address>
+
+                        <PostCode>
+08370
+                        </PostCode>
+
+                        <Town>
+CALELLA
+                        </Town>
+
+                        <Province>
+BARCELONA
+                        </Province>
+
+                        <CountryCode>
+ESP
+                        </CountryCode>
+                    </AddressInSpain>
+
+                    <CentreDescription>
+AJUNTAMENT DE CALELLA
+                    </CentreDescription>
+                </AdministrativeCentre>
+
+                <AdministrativeCentre>
+
+                    <CentreCode>
+L01080351
+                    </CentreCode>
+
+                    <RoleTypeCode>
+03
+                    </RoleTypeCode>
+
+                    <AddressInSpain>
+
+                        <Address>
+PLAÇA DE L'AJUNTAMENT
+                        </Address>
+
+                        <PostCode>
+08370
+                        </PostCode>
+
+                        <Town>
+CALELLA
+                        </Town>
+
+                        <Province>
+BARCELONA
+                        </Province>
+
+                        <CountryCode>
+ESP
+                        </CountryCode>
+                    </AddressInSpain>
+
+                    <CentreDescription>
+AJUNTAMENT DE CALELLA
+                    </CentreDescription>
+                </AdministrativeCentre>
+            </AdministrativeCentres>
+
+            <LegalEntity>
+
+                <CorporateName>
+SISTEMES INSTALÂ·LACIONS CALELLA
+                </CorporateName>
+
+                <TradeName>
+SISTEMES INSTALÂ·LACIONS CALELLA
+                </TradeName>
+
+                <AddressInSpain>
+
+                    <Address>
+C/JOAN FUSTER 2,3er. 1a.
+                    </Address>
+
+                    <PostCode>
+08370
+                    </PostCode>
+
+                    <Town>
+CALELLA
+                    </Town>
+
+                    <Province>
+BARCELONA
+                    </Province>
+
+                    <CountryCode>
+ESP
+                    </CountryCode>
+                </AddressInSpain>
+
+                <ContactDetails>
+
+                    <Telephone>
+                    </Telephone>
+
+                    <ElectronicMail>
+                    </ElectronicMail>
+                </ContactDetails>
+            </LegalEntity>
+        </SellerParty>
+
+        <BuyerParty>
+
+            <TaxIdentification>
+
+                <PersonTypeCode>
+J
+                </PersonTypeCode>
+
+                <ResidenceTypeCode>
+R
+                </ResidenceTypeCode>
+
+                <TaxIdentificationNumber>
+P0803500H
+                </TaxIdentificationNumber>
+            </TaxIdentification>
+
+            <LegalEntity>
+
+                <CorporateName>
+AJUNTAMENT DE CALELLA
+                </CorporateName>
+
+                <TradeName>
+AJUNTAMENT DE CALELLA
+                </TradeName>
+
+                <AddressInSpain>
+
+                    <Address>
+PLAÃ‡A DE L'AJUNTAMENT
+                    </Address>
+
+                    <PostCode>
+08370
+                    </PostCode>
+
+                    <Town>
+CALELLA
+                    </Town>
+
+                    <Province>
+BARCELONA
+                    </Province>
+
+                    <CountryCode>
+ESP
+                    </CountryCode>
+                </AddressInSpain>
+            </LegalEntity>
+        </BuyerParty>
+    </Parties>
+
+    <Invoices>
+
+        <Invoice>
+
+            <InvoiceHeader>
+
+                <InvoiceNumber>
+2
+                </InvoiceNumber>
+
+                <InvoiceSeriesCode>
+Emit-
+                </InvoiceSeriesCode>
+
+                <InvoiceDocumentType>
+FC
+                </InvoiceDocumentType>
+
+                <InvoiceClass>
+OO
+                </InvoiceClass>
+            </InvoiceHeader>
+
+            <InvoiceIssueData>
+
+                <IssueDate>
+2015-01-19
+                </IssueDate>
+
+                <InvoiceCurrencyCode>
+EUR
+                </InvoiceCurrencyCode>
+
+                <TaxCurrencyCode>
+EUR
+                </TaxCurrencyCode>
+
+                <LanguageName>
+es
+                </LanguageName>
+            </InvoiceIssueData>
+
+            <TaxesOutputs>
+
+                <Tax>
+
+                    <TaxTypeCode>
+01
+                    </TaxTypeCode>
+
+                    <TaxRate>
+     21.00
+                    </TaxRate>
+
+                    <TaxableBase>
+
+                        <TotalAmount>
+   2500.00
+                        </TotalAmount>
+                    </TaxableBase>
+
+                    <TaxAmount>
+
+                        <TotalAmount>
+    525.00
+                        </TotalAmount>
+                    </TaxAmount>
+                </Tax>
+            </TaxesOutputs>
+
+            <InvoiceTotals>
+
+                <TotalGrossAmount>
+   2500.00
+                </TotalGrossAmount>
+
+                <TotalGeneralDiscounts>
+0.00
+                </TotalGeneralDiscounts>
+
+                <TotalGeneralSurcharges>
+0.00
+                </TotalGeneralSurcharges>
+
+                <TotalGrossAmountBeforeTaxes>
+   2500.00
+
+                </TotalGrossAmountBeforeTaxes>
+
+                <TotalTaxOutputs>
+    525.00
+                </TotalTaxOutputs>
+
+                <TotalTaxesWithheld> 
+0.00
+                </TotalTaxesWithheld>
+
+                <InvoiceTotal>
+   3025.00
+                </InvoiceTotal>
+
+                <TotalOutstandingAmount>
+   3025.00
+                </TotalOutstandingAmount>
+
+                <TotalExecutableAmount>
+   3025.00
+                </TotalExecutableAmount>
+            </InvoiceTotals>
+
+            <Items>
+
+                <PaymentDetails>
+
+                    <Installment>
+
+                        <InstallmentDueDate>
+$[PAG.DATA_VENC]
+                        </InstallmentDueDate>
+
+                        <InstallmentAmount>
+$[PAG.IMPORT]
+                        </InstallmentAmount>
+
+                        <PaymentMeans>
+04
+                        </PaymentMeans>
+
+                        <AccountToBeCredited>
+
+                            <IBAN>
+$[PAG.IBAN]
+                            </IBAN>
+
+                            <BankCode>
+$[PAG.BANC]
+                            </BankCode>
+
+                            <BranchCode>
+$[PAG.OFICINA]
+                            </BranchCode>
+
+                            <BranchInSpainAddress>
+
+                                <Address>
+                                </Address>
+
+                                <PostCode>
+                                </PostCode>
+
+                                <Town>
+                                </Town>
+
+                                <Province>
+                                </Province>
+
+                                <CountryCode>
+ESP
+                                </CountryCode>
+                            </BranchInSpainAddress>
+                        </AccountToBeCredited>
+                    </Installment>
+                </PaymentDetails>
+            </Items>
+                                                 $[PAGS]     
+
+        </Invoice>
+    </Invoices>
+
+</fe:Facturae>

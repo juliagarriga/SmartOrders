@@ -1,0 +1,81 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/tplant_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_gravity="left"
+            android:background="@drawable/lock" />
+        
+        <Button
+            android:id="@+id/tplant_unlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_gravity="left"
+            android:background="@drawable/lock_open" />
+        <Button
+            android:id="@+id/tplant_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_gravity="left"
+			android:visibility="gone"
+            android:background="@drawable/help" />
+        
+        
+        <Button
+            android:id="@+id/tplant_list_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu_sorta" />
+
+        <Button
+            android:id="@+id/tplant_list_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/delete" />
+
+        <Button
+            android:id="@+id/tplant_list_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/record" />
+
+        <Button
+            android:id="@+id/tplant_list_compass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:background="@drawable/ic_menu_compass" />
+
+        <Button
+            android:id="@+id/tplant_list_modificar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu_agenda" />
+
+
+        <Button
+            android:id="@+id/tplant_list_llista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list" />
+
+        <Button
+            android:id="@+id/tplant_list_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/add" />
+        <Button
+            android:id="@+id/tplant_list_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/arrow_left" />
+        </LinearLayout>
+
+</merge>

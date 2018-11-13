@@ -1,0 +1,7 @@
+
+
+Versió 12
+
+
+S'han mofificat els mòduls LlistaDocumentsPendents,LListaDocumentsEnviats,TFormField,TFormFiels 
+per gestionar les dates en format yyyy-MM-dd en lloc de dd/MM/yyyy.

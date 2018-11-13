@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:background="@color/background"
+   android:layout_height="fill_parent"
+   android:layout_width="fill_parent"
+   android:padding="30dip"
+   android:orientation="horizontal">
+   <LinearLayout
+      android:orientation="vertical"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:layout_gravity="center">
+      <TextView
+         android:text="@string/main_title"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_gravity="center"
+         android:layout_marginBottom="25dip"
+         android:textSize="24.5sp" />
+      <Button
+         android:onClick="myClickHandler"
+         android:id="@+id/sincronitza"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/sincro"   />
+      <Button
+         android:id="@+id/group_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/groups_label" 
+         android:background="@color/puzzle_light"/>
+      <Button
+         android:id="@+id/subgroup_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/subgroups_label" />
+       <Button
+         android:id="@+id/products_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/products_label" />
+       <Button
+         android:id="@+id/orders_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/orders_label" />
+      <Button
+         android:id="@+id/about_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/about_label" />    
+      <Button
+         android:id="@+id/query_article_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/queryart_label" />              
+      <Button
+         android:id="@+id/exit_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/exit_label" />
+
+
+   </LinearLayout>
+</LinearLayout>

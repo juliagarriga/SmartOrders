@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/tplant_list_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/delete" />
+
+        <sgb.orders.SGEdit
+            android:id="@+id/linies_article"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:drawableRight="@android:drawable/checkbox_off_background"
+            android:hint="Article"
+            android:imeOptions="actionDone"
+	            android:inputType="numberDecimal|numberSigned"
+            android:selectAllOnFocus="true"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/tplant_list_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/record" />
+
+        <Button
+            android:id="@+id/tplant_list_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/arrow_left" />
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/articles_detall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4px"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <sgb.orders.SGEdit
+                android:id="@+id/linies_descripcio"
+                android:layout_span="4"
+                android:editable="false"
+                android:focusable="false"
+                android:hint="Descripció"
+                android:imeOptions="actionNext"
+                android:selectAllOnFocus="true" />
+        </TableRow>
+
+        <TableRow>
+
+            <sgb.orders.SGEdit
+                android:id="@+id/linies_quantitat"
+                android:layout_weight="25"
+                android:hint="Quantitat"
+                android:imeOptions="actionDone|actionNext"
+	            android:inputType="numberDecimal|numberSigned"
+                android:selectAllOnFocus="true"
+                android:singleLine="true" />
+
+            <sgb.orders.SGEdit
+                android:id="@+id/linies_preu"
+                android:layout_weight="25"
+                android:hint="Preu"
+                android:imeOptions="actionNext"
+	            android:inputType="numberDecimal|numberSigned"
+                android:selectAllOnFocus="true"
+                android:singleLine="true" />
+
+            <sgb.orders.SGEdit
+                android:id="@+id/linies_dte"
+                android:layout_weight="25"
+                android:hint="Descompte"
+                android:imeOptions="actionNext"
+	            android:inputType="numberDecimal|numberSigned"
+                android:selectAllOnFocus="true"
+                android:singleLine="true" />
+        </TableRow>
+
+        <TableRow>
+
+            <Spinner
+                android:id="@+id/linies_familia"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="3"
+                android:drawSelectorOnTop="true"
+                android:prompt="@+id/subgroup_name" />
+        </TableRow>
+
+        <TableRow>
+
+            <Spinner
+                android:id="@+id/linies_subgrup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="3"
+                android:drawSelectorOnTop="true"
+                android:prompt="@+id/subgroup_name" />
+        </TableRow>
+
+        <TableRow>
+            <sgb.orders.SGEdit
+                android:id="@+id/observacions"
+                android:layout_weight="25"
+                android:gravity="left"
+                android:imeOptions="actionNext"
+                android:inputType="textMultiLine"
+                android:selectAllOnFocus="false"
+                android:singleLine="false" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

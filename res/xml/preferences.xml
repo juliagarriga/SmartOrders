@@ -1,0 +1,10 @@
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<ListPreference
+		android:key="ftp_pref"
+		android:title="Configuració ftp"
+		android:summary="Choose the order the list uses"
+		android:entries="@array/sort_names"
+		android:entryValues="@array/sort_clauses"
+		android:dialogTitle="Choose a sort order" />
+</PreferenceScreen>

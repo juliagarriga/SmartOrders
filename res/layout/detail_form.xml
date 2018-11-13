@@ -1,0 +1,38 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:stretchColumns="1"
+	>
+	<TableRow>
+		<TextView android:text="Customer:" />
+		<EditText android:id="@+id/customer" />
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Date:" />
+		<EditText android:id="@+id/date" />
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Type:" />
+		<RadioGroup android:id="@+id/state">
+			<RadioButton android:id="@+id/take_out"
+				android:text="Take-Out"
+			/>
+			<RadioButton android:id="@+id/sit_down"
+				android:text="Sit-Down"
+			android:enabled="true" android:checked="true"/>
+			<RadioButton android:id="@+id/delivery"
+				android:text="Delivery"
+			/>
+			<EditText android:gravity="top" android:text="EditText" android:layout_height="wrap_content" android:layout_width="wrap_content" android:maxLines="2" android:maxWidth="200sp" android:lines="2" android:singleLine="false" android:id="@+id/notes" android:scrollHorizontally="false"></EditText>
+		</RadioGroup>
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Notes:" />
+	</TableRow>
+	<Button android:id="@+id/save"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Save"
+	/>
+</TableLayout>
+

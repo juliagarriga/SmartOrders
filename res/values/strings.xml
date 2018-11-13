@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart Orders</string>
+    <string name="main_title"></string>
+    <string name="groups_label">Groups</string>
+    <string name="subgroups_label">Subgroups</string>
+    <string name="products_label">Products</string>
+    <string name="orders_label">Orders</string>
+    <string name="about_label">About</string>
+    <string name="exit_label">Exit</string>
+    <string name="new_game_title">Difficulty</string>
+    <string name="order_label">Order</string>
+
+    <string-array name="menu">
+        <item>Edit</item>
+        <item>Delete</item>
+        <item>Send</item>
+    </string-array>
+
+    <string name="queryart_label">Query</string>
+    <string name="sincro">Sincronització</string>
+    <string name="ftp_user">***</string>
+    <string name="ftp_pwd">***</string>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <string name="farright_text">I am the far right pane. I have an ImageButton control.</string>
+    <string name="right_text">Lion looking right in the right pane.</string>
+    <string name="middle_text">MONKEY in the middle pane.</string>
+    <string name="left_text">Zebra leaping left in the left pane.</string>
+    <string name="farleft_text">I am the far left pane. I have a Button.</string>
+
+    <string-array name="nav_options">
+        <item>Articles</item>
+        <item>Clients</item>
+        <item>Exportació</item>
+        <item>Importació</item>
+        <item>Backup</item>
+        <item>Configuració</item>
+        <item>Inicialitza BBDD</item>
+    </string-array>
+
+    <array name="navigation_iconos">
+        <item>@drawable/ic_action_user</item>
+        <item>@drawable/ic_action_star</item>
+        <item>@drawable/ic_action_event</item>
+        <item>@drawable/ic_action_place</item>
+        <item>@drawable/ic_action_labels</item>
+        <item>@drawable/ic_action_settings</item>
+        <item>@drawable/ic_action_share</item>
+    </array>
+
+</resources>
