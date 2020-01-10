@@ -1,14 +1,13 @@
 buildscript {
     repositories {
-        mavenCentral()
-        maven {
-            url 'https://maven.google.com/'
-            name 'Google'
-        }
         google()
+        jcenter()
+        maven {
+            url "https://jitpack.io"
+        }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'com.android.tools.build:gradle:3.4.2'
     }
 }
 apply plugin: 'android'
@@ -45,13 +44,14 @@ android {
         release.setRoot('build-types/release')
     }
     defaultConfig {
-        minSdkVersion = 8
+        minSdkVersion 15
     }
 }
 
 repositories {
+    google()
+    jcenter()
     maven {
-        url 'https://maven.google.com/'
-        name 'Google'
+        url "https://jitpack.io"
     }
 }

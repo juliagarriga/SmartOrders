@@ -169,7 +169,7 @@ public class Ftp {
 	int DownLoadFile(Boolean inWorkFolder,String dirRemot, String filRemot, String dirLocal,
 			String filLocal, Boolean Throw) throws Exception {
 
-		if (inWorkFolder && !workFolder.isEmpty()) {
+		if (inWorkFolder && !dirRemot.isEmpty()) {
 			dirRemot= "/"+workFolder+"/"+dirRemot;
 			ChangeDirectory(dirRemot);
 		}

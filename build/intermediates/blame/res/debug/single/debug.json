@@ -1,634 +1,634 @@
 [
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_gradient_bg_hover.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/gradient_bg_hover.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_image2_bg.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\image2_bg.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_find_product.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/find_product.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_products_row.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\products_row.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable-mdpi_users.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable-mdpi/users.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_taques.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\taques.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable-mdpi_nuevo.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable-mdpi/nuevo.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_button_wh_selected.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\button_wh_selected.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_copyofmainpager.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/copyofmainpager.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_clients.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\clients.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_ic_menu_help.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/ic_menu_help.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\raw_capella.ogg.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\raw\\capella.ogg"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_send.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/send.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_save.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable-mdpi\\save.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_nuevo2.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/nuevo2.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_toast.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\toast.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/color_text_wh_regular.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/color/text_wh_regular.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_viewflipper.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\viewflipper.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_grupros.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/grupros.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_detail_form.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\detail_form.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_taques.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/taques.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\raw_insert2.mp3.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\raw\\insert2.mp3"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_gradient2_bg.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/gradient2_bg.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\color_text_wh_large.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\color\\text_wh_large.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_cap2.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/cap2.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_list_item_bl.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\list_item_bl.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_articles_row.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/articles_row.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_left.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\arrow_left.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/anim_flipin.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/anim/flipin.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_agenda.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\ic_menu_agenda.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout-land_detail_form.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout-land/detail_form.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_place.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\ic_action_place.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_list_divider_wh.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/list_divider_wh.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_send.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\send.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_calendar.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/calendar.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_r96wbv06.bmp.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\r96wbv06.bmp"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_dialogpreferences.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/dialogpreferences.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable-hdpi\\icon.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_querytool.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/querytool.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_list_item_wh_pressed.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\list_item_wh_pressed.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_impexp.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/impexp.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\raw_color.mp3.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\raw\\color.mp3"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_gray_gradient_background.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/gray_gradient_background.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_calendar.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable-ldpi\\calendar.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_appico.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/appico.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_dialoglinia.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\dialoglinia.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_mapa.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/mapa.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_tplantillalist.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\tplantillalist.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_farright.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/farright.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_ball_red.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\ball_red.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/color_text_bl_regular.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/color/text_bl_regular.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_ic_drawer.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\ic_drawer.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_dialoglinia.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/dialoglinia.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_gray_gradient_background.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\gray_gradient_background.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_ic_action_settings.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/ic_action_settings.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_list_item_wh_selected.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\list_item_wh_selected.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_white_container_bl.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/white_container_bl.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_icono.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\icono.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_detail_form.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/detail_form.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_list_divider_wh.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\list_divider_wh.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_button_wh_normal.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/button_wh_normal.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\raw_insert.mp3.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\raw\\insert.mp3"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable-mdpi_calendar.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable-mdpi/calendar.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_calendar.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable-mdpi\\calendar.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_icono.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/icono.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_dialogpreferences.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\dialogpreferences.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_itm.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/itm.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_icon.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\icon.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_group.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/group.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_white_container_wh.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\white_container_wh.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_ic_menu_delete.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/ic_menu_delete.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_delete.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\delete.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_animated_button1.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/animated_button1.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_animated_button1.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\animated_button1.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_webviewactivity.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/webviewactivity.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_rutes.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\rutes.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable-ldpi_nuevo.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable-ldpi/nuevo.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_notes.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\notes.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_toast.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/toast.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_end_call.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\ic_menu_end_call.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_dialogerror.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/dialogerror.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_middle.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\middle.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_viewflipper.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/viewflipper.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_mainpager.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\mainpager.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_ic_menu_show_list.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/ic_menu_show_list.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_farright.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\farright.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_list_divider_bl.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/list_divider_bl.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_cap.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\cap.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_arrow_left.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/arrow_left.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_impexp.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\impexp.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_ic_menu_sorta.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/ic_menu_sorta.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_help.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\help.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_save.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/save.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_gradient_bg.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\gradient_bg.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_tplantillalist_row.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/tplantillalist_row.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_delete.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\ic_menu_delete.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_list_selector.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/list_selector.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\anim_flipin.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\anim\\flipin.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_ball_green.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/ball_green.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_appico.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\appico.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_product.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/product.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_articles_row.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\articles_row.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable-hdpi_icon.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable-hdpi/icon.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_lock.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\lock.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_cap.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/cap.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_mapa.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\mapa.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/raw_color.mp3.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/raw/color.mp3"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_cap2.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\cap2.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable-hdpi_nuevo.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable-hdpi/nuevo.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_boto_cercle.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\boto_cercle.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/anim_flipout.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/anim/flipout.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_preferences.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\ic_menu_preferences.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_lock_open.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/lock_open.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_articles.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\articles.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_ic_action_place.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/ic_action_place.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_menu.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\menu.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable-mdpi_icon.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable-mdpi/icon.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_nuevo.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\nuevo.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_camera.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/camera.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_back.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\back.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_linies.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/linies.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_list_selector.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\list_selector.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_run.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/run.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_subgroups_row.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\subgroups_row.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_rutes.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/rutes.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_users.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\users.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_mainlogo.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/mainlogo.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_reset.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\reset.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_notification_layout.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/notification_layout.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_record.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\record.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_menu.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/menu.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable-ldpi\\icon.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/menu_querymenu.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/menu/querymenu.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_button_wh_pressed.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\button_wh_pressed.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_group_spinner_row.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/group_spinner_row.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_list.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\list.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_button_bl.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/button_bl.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_phone.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\phone.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_hihgcopia.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/hihgcopia.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_user_icon.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\user_icon.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_clients.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/clients.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_tick.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\tick.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_ic_action_labels.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/ic_action_labels.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_querytool.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\querytool.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_middle.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/middle.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_copyoftplantillalist_row.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\copyoftplantillalist_row.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_subgroup.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/subgroup.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_white_container_bl.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\white_container_bl.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_delete.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/delete.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_navigator.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\navigator.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable-ldpi_save.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable-ldpi/save.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\menu_option.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\menu\\option.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_user_icon.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/user_icon.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_button_wh.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\button_wh.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_list_item_bl.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/list_item_bl.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_gradient_bg_hover.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\gradient_bg_hover.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_boto_cercle.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/boto_cercle.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_settings.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\ic_action_settings.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_navigator.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/navigator.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_tplantillalist_row.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\tplantillalist_row.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_dialogregal.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/dialogregal.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_gradient2_bg.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\gradient2_bg.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_subgroups_row.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/subgroups_row.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_save.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable-hdpi\\save.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_restaurant.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/restaurant.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_search_48.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\search_48.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_button_bl_normal.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/button_bl_normal.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_itm.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\itm.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_tplantillalist.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/tplantillalist.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_mainlogo.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\mainlogo.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_ic_menu_add.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/ic_menu_add.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_users.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable-ldpi\\users.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_r96wbv06.bmp.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/r96wbv06.bmp"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_event.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\ic_action_event.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_list_item_wh_selected.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/list_item_wh_selected.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_nuevo.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable-ldpi\\nuevo.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_record.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/record.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_sorta.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\ic_menu_sorta.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_button_wh_pressed.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/button_wh_pressed.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_ball_green.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\ball_green.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_ic_action_share.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/ic_action_share.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_webviewactivity.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\webviewactivity.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/raw_insert.mp3.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/raw/insert.mp3"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_dialogerror.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\dialogerror.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_add.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/add.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_cataleg.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\cataleg.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/anim_flipin_reverse.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/anim/flipin_reverse.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_button_wh_normal.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\button_wh_normal.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_ic_menu_end_call.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/ic_menu_end_call.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\raw_fi_transmissio.mp3.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\raw\\fi_transmissio.mp3"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_help.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/help.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_compass.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\ic_menu_compass.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_ic_action_event.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/ic_action_event.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_share.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\ic_action_share.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_ic_action_user.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/ic_action_user.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_image_bg.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\image_bg.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_gradient_bg.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/gradient_bg.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_checkmark.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\checkmark.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_ic_drawer.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/ic_drawer.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_subgroup.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\subgroup.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/raw_fi_transmissio.mp3.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/raw/fi_transmissio.mp3"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_notification_layout.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\notification_layout.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_camera.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/camera.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_add.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\ic_menu_add.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_podcast.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/podcast.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_title_bar_wh.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\title_bar_wh.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_checkmark.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/checkmark.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_design.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\design.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_ic_launcher.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/ic_launcher.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\color_text_wh_regular.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\color\\text_wh_regular.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/color_text_wh_large.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/color/text_wh_large.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\color_text_bl_regular.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\color\\text_bl_regular.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_clients2.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/clients2.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_header.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\header.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_articles.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/articles.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_users.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable-hdpi\\users.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable-hdpi_users.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable-hdpi/users.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_back.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\ic_menu_back.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_button_wh_selected.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/button_wh_selected.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_save.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\save.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/raw_insert2.mp3.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/raw/insert2.mp3"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_copyofmainpager.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\copyofmainpager.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_design.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/design.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_camera.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\camera.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_button_wh.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/button_wh.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_users.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable-mdpi\\users.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_ic_menu_save.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/ic_menu_save.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\ic_launcher.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_list_item_wh.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/list_item_wh.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_nuevo.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable-mdpi\\nuevo.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_botons.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/botons.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_linies.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\linies.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_ic_menu_agenda.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/ic_menu_agenda.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_show_list.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\ic_menu_show_list.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_notes.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/notes.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_group.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\group.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_products_row.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/products_row.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_orderslist.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\orderslist.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_list_selector_linies.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/list_selector_linies.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout-land_detail_form.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout-land\\detail_form.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/menu_option.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/menu/option.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\anim_flipout.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\anim\\flipout.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_list_item_wh_pressed.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/list_item_wh_pressed.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_find_product.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\find_product.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/raw_capella.ogg.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/raw/capella.ogg"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_groups_row.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\groups_row.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_cataleg.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/cataleg.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_botons.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\botons.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_back.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/back.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\xml_preferences.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\xml\\preferences.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable-ldpi_users.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable-ldpi/users.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_labels.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\ic_action_labels.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_ic_menu_compass.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/ic_menu_compass.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\anim_flipout_reverse.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\anim\\flipout_reverse.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_icon.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/icon.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_button_bl_normal.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\button_bl_normal.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_reset.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/reset.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_camera.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\camera.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_title_bar_wh.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/title_bar_wh.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_restaurant.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\restaurant.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/xml_preferences.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/xml/preferences.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\anim_flipin_reverse.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\anim\\flipin_reverse.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_row.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/row.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_list_item_wh.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\list_item_wh.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_orderslist.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/orderslist.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_user.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\ic_action_user.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_tick.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/tick.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_save.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\ic_menu_save.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable-hdpi_save.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable-hdpi/save.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_edittext_rounded_corners.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\edittext_rounded_corners.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable-ldpi_calendar.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable-ldpi/calendar.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_podcast.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\podcast.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_list.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/list.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_product.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\product.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable-mdpi_save.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable-mdpi/save.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_calendar.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\calendar.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_groups_row.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/groups_row.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_nuevo2.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\nuevo2.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_copyoftplantillalist_row.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/copyoftplantillalist_row.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_save.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable-ldpi\\save.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_image2_bg.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/image2_bg.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_list_selector_linies.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\list_selector_linies.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_search_48.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/search_48.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_help.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\ic_menu_help.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_lock.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/lock.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_add.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\add.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_header.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/header.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_hihgcopia.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\hihgcopia.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_image_bg.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/image_bg.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\menu_querymenu.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\menu\\querymenu.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_ic_menu_back.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/ic_menu_back.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_star.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\ic_action_star.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_ic_menu_preferences.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/ic_menu_preferences.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_run.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\run.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_users.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/users.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_row.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\row.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_nuevo.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/nuevo.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_group_spinner_row.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\group_spinner_row.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_edittext_rounded_corners.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/edittext_rounded_corners.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_dialogregal.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\dialogregal.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/layout_mainpager.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/layout/mainpager.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_nuevo.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable-hdpi\\nuevo.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable-hdpi_calendar.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable-hdpi/calendar.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_grupros.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\grupros.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_ball_red.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/ball_red.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\layout_clients2.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\layout\\clients2.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_white_container_wh.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/white_container_wh.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_lock_open.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\lock_open.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_phone.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/phone.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable-mdpi\\icon.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable-ldpi_icon.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable-ldpi/icon.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_button_bl.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\button_bl.xml"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/drawable_ic_action_star.png.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/drawable/ic_action_star.png"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_calendar.png.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable-hdpi\\calendar.png"
     },
     {
-        "merged": "/home/julia/Downloads/SmartOrdersV2/build/intermediates/res/merged/debug/anim_flipout_reverse.xml.flat",
-        "source": "/home/julia/Downloads/SmartOrdersV2/res/anim/flipout_reverse.xml"
+        "merged": "C:\\gestions\\Apps\\SmartOrders\\build\\intermediates\\res\\merged\\debug\\drawable_list_divider_bl.xml.flat",
+        "source": "C:\\gestions\\Apps\\SmartOrders\\res\\drawable\\list_divider_bl.xml"
     }
 ]
