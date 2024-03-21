@@ -7,7 +7,8 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.4.2'
+        classpath 'com.android.tools.build:gradle:8.3.1'
+//        classpath 'com.android.tools.build:gradle:4.2.0'
     }
 }
 apply plugin: 'android'
@@ -17,8 +18,8 @@ dependencies {
 }
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion '28.0.3'
+    compileSdkVersion 29
+    namespace 'sgb.orders'
 
     sourceSets {
         main {
@@ -44,7 +45,7 @@ android {
         release.setRoot('build-types/release')
     }
     defaultConfig {
-        minSdkVersion 15
+        minSdkVersion 19
     }
 }
 

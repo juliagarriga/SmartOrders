@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/BtnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Netejar" />
+        <Button
+            android:id="@+id/BtnSatelite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sat" />
+
+        <Button
+            android:id="@+id/BtnCentrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Centr" />
+
+        <Button
+            android:id="@+id/BtnAnimar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anim" />
+
+        <Button
+            android:id="@+id/BtnMover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mover" />
+    </LinearLayout>
+
+    <com.google.android.maps.MapView
+        android:id="@+id/mapa"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="0DqUZJRY17n2Ff7PaxaLFv6AvF79qHGdBu_S50Q"
+        android:clickable="true" />
+
+</LinearLayout>

@@ -116,7 +116,7 @@ public class ImpExp extends Activity {
 						prefs.close();
 
 						if (host.length() <= 0) {
-							host = "ftp.reset.cat";
+							host = "ftp.reset.es";
 							userName = "dem01";
 							password = "dem01pda";
 						}

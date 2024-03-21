@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ListView
+                android:id="@+id/articles_llista"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <TableLayout
+                android:id="@+id/articles_detall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="4px"
+                android:stretchColumns="1" >
+
+                <TableRow>
+
+                    <TextView android:text="Grup :" />
+
+                    <Spinner
+                        android:id="@+id/articles_familia"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:drawSelectorOnTop="true"
+                        android:prompt="@+id/subgroup_name" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView android:text="Selecció:" />
+
+                    <Spinner
+                        android:id="@+id/articles_subgrup"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:drawSelectorOnTop="true"
+                        android:prompt="@+id/subgroup_name" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView android:text="Codi :" />
+
+                    <EditText
+                        android:id="@+id/articles_article"
+                        android:imeOptions="actionNext" 
+						android:selectAllOnFocus="true" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView android:text="Descripció :" />
+
+                    <EditText
+                        android:id="@+id/articles_descripcio"
+                        android:imeOptions="actionNext" 
+                        android:selectAllOnFocus="true" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView android:text="Preu :" />
+
+                    <EditText
+                        android:id="@+id/articles_preu"
+                        android:imeOptions="actionNext" 
+                        android:selectAllOnFocus="true" 
+                        android:inputType="numberDecimal" />
+                </TableRow>
+
+                <Button
+                    android:id="@+id/articles_gravar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gravar Modificacions" />
+            </TableLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</TabHost>

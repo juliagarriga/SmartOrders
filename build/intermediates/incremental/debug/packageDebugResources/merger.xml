@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/julia/Downloads/SmartOrders/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/julia/Downloads/SmartOrders/res"><file path="/home/julia/Downloads/SmartOrders/res/values/attrs.xml" qualifiers=""><attr format="reference" name="pageBackground"/><attr format="reference" name="pagePaddingLayout"/><attr format="reference" name="textTitle"/><attr format="reference" name="textTitleHidden"/><attr format="reference" name="textSubheader"/><attr format="reference" name="textLarge"/><attr format="reference" name="textRegular"/><attr format="reference" name="textCheckBox"/><attr format="reference" name="textCurrentActivityGreen"/><attr format="reference" name="whiteBackground"/><attr format="reference" name="button"/><attr format="reference" name="list"/><attr format="reference" name="listItem"/><attr format="reference" name="listDivider"/><attr format="reference" name="editText"/><attr format="reference|dimension" name="pageMargin"/><attr format="reference|dimension" name="contentLeftMargin"/></file><file path="/home/julia/Downloads/SmartOrders/res/values/themes.xml" qualifiers=""><style name="Theme" parent="android:Theme">
+		<item name="pageMargin">2sp</item>
+		<item name="android:windowTitleSize">20dip</item>
+	</style><style name="Theme.White">
+		<item name="pageBackground">@style/page_background_wh</item>
+		<item name="pagePaddingLayout">@style/page_padding_layout_wh</item>		
+		<item name="textTitle">@style/text_title_wh</item>
+		<item name="textTitleHidden">@style/text_title_hidden_wh</item>
+		<item name="textSubheader">@style/text_subheader_wh</item>
+		<item name="textLarge">@style/text_large_wh</item>
+		<item name="textRegular">@style/text_regular_wh</item>
+		<item name="textCheckBox">@style/text_check_box_wh</item>
+		<item name="textCurrentActivityGreen">@style/text_current_activity_green_wh</item>
+		<item name="whiteBackground">@style/white_background_wh</item>
+		<item name="button">@style/button_wh</item>
+		<item name="list">@style/list_wh</item>
+		<item name="listItem">@style/list_item_wh</item>
+		<item name="listDivider">@style/list_divider_wh</item>
+		<item name="pageMargin">@dimen/page_margin_wh</item>
+	</style><style name="Theme.Blue">
+		<item name="pageBackground">@style/page_background_bl</item>
+		<item name="pagePaddingLayout">@style/page_padding_layout_bl</item>		
+		<item name="textTitle">@style/text_title_bl</item>
+		<item name="textTitleHidden">@style/text_title_hidden_bl</item>
+		<item name="textSubheader">@style/text_subheader_bl</item>
+		<item name="textLarge">@style/text_large_bl</item>
+		<item name="textRegular">@style/text_regular_bl</item>
+		<item name="textCheckBox">@style/text_regular_bl</item>
+		<item name="whiteBackground">@style/white_background_bl</item>
+		<item name="button">@style/button_bl</item>
+		<item name="list">@style/list_bl</item>
+		<item name="listItem">@style/list_item_bl</item>
+		<item name="listDivider">@style/list_divider_bl</item>
+		<item name="pageMargin">@dimen/page_margin_bl</item>
+	</style></file><file path="/home/julia/Downloads/SmartOrders/res/values/boto.xml" qualifiers=""><style name="MnuBtnStyle">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_marginTop">1dip</item> 
+        <item name="android:layout_marginBottom">1dip</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">#00FF00</item>
+        <item name="android:typeface">monospace</item>
+    </style></file><file path="/home/julia/Downloads/SmartOrders/res/values/colors.xml" qualifiers=""><color name="transparent_blue">#80004488</color><color name="light_font">#FBFBFB</color><color name="grey_font">#ff9e9e9e</color><color name="text_shadow">#7F000000</color><color name="text_shadow_white">#FFFFFF</color><color name="background">#3500ffff</color><color name="puzzle_background">#ffe6f0ff</color><color name="puzzle_hilite">#ffffffff</color><color name="puzzle_light">#64c6d4ef</color><color name="puzzle_dark">#6456648f</color><color name="puzzle_foreground">#ff000000</color><color name="puzzle_hint_0">#64ff0000</color><color name="puzzle_hint_1">#6400ff80</color><color name="puzzle_hint_2">#2000ff80</color><color name="puzzle_selected">#64ff8000</color><color name="greenStart">#ff33dd44</color><color name="greenMid">#ff0A8815</color><color name="greenEnd">#ff1da130</color></file><file path="/home/julia/Downloads/SmartOrders/res/values/styles.xml" qualifiers=""><style name="list_divider">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:layout_marginTop">4dip</item>
+        <item name="android:layout_marginBottom">4dip</item>
+    </style><dimen name="page_margin_bl">2sp</dimen><dimen name="content_left_margin_bl">8sp</dimen><style name="page_background_bl">
+        <item name="android:background">#000</item>
+        <item name="android:padding">@dimen/page_margin_bl</item>
+        
+    </style><style name="page_padding_layout_bl">
+        <item name="android:padding">@dimen/page_margin_bl</item>
+    </style><style name="text_title_bl">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:paddingLeft">5sp</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowColor">#DDD</item>
+        <item name="android:background">#FF004488</item>
+    </style><style name="text_title_hidden_bl">
+        <item name="android:visibility">gone</item>
+    </style><style name="text_subheader_bl">
+        <item name="android:textColor">#08C</item>
+        <item name="android:paddingLeft">5sp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowColor">#666</item>
+    </style><style name="text_large_bl">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+    </style><style name="text_regular_bl">
+        <item name="android:textColor">@color/text_bl_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="white_background_bl">
+        <item name="android:background">@drawable/white_container_bl</item>
+        <item name="android:padding">5sp</item>
+    </style><style name="button_bl">
+        <item name="android:background">@drawable/button_bl</item>
+-->
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_margin">3sp</item>
+        <item name="android:paddingTop">11sp</item>
+        <item name="android:paddingBottom">11sp</item>
+    </style><style name="list_bl">
+        <item name="android:background">#000</item>
+        <item name="android:paddingTop">15sp</item>
+        <item name="android:paddingBottom">15sp</item>
+        <item name="android:listSelector">@drawable/list_item_bl</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">@drawable/list_divider_bl</item>
+        <item name="android:dividerHeight">1dip</item>
+        <item name="android:footerDividersEnabled">false</item>
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarAlwaysDrawHorizontalTrack">true</item>
+        <item name="android:scrollbars">vertical</item>
+    </style><style name="list_item_bl" parent="text_large_bl">
+        <item name="android:background">@drawable/list_item_bl</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style><style name="list_divider_bl" parent="list_divider">
+        <item name="android:background">@drawable/list_divider_bl</item>
+    </style><dimen name="page_margin_wh">5sp</dimen><dimen name="content_left_margin_wh">8sp</dimen><style name="page_background_wh">
+        <item name="android:background">@drawable/gray_gradient_background</item>
+        <item name="android:padding">@dimen/page_margin_wh</item>
+    </style><style name="page_padding_layout_wh">
+        <item name="android:padding">@dimen/page_margin_wh</item>
+    </style><style name="text_title_wh">
+        <item name="android:background">@drawable/title_bar_wh</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">3</item>
+        <item name="android:shadowColor">#888</item>
+    </style><style name="text_title_hidden_wh" parent="text_title_wh"/><style name="text_subheader_wh">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowColor">#000</item>
+    </style><style name="text_large_wh">
+        <item name="android:textColor">@color/text_wh_large</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowColor">#888</item>
+    </style><style name="text_regular_wh">
+        <item name="android:textColor">@color/text_wh_regular</item>
+        <item name="android:textSize">15sp</item>
+    </style><style name="text_check_box_wh">
+        <item name="android:textColor">@color/text_wh_regular</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="text_current_activity_green_wh" parent="text_large_wh"/><style name="white_background_wh">
+        <item name="android:background">@drawable/white_container_wh</item>
+        <item name="android:padding">10sp</item>
+    </style><style name="button_wh" parent="text_large_wh">
+        <item name="android:background">@drawable/button_wh</item>
+        <item name="android:layout_margin">3sp</item>
+    </style><style name="list_wh">
+        <item name="android:background">@drawable/white_container_wh</item>
+        <item name="android:paddingTop">15sp</item>
+        <item name="android:paddingBottom">15sp</item>
+        <item name="android:paddingLeft">5sp</item>
+        <item name="android:paddingRight">5sp</item>
+        <item name="android:listSelector">@drawable/list_item_wh</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">@drawable/list_divider_wh</item>
+        <item name="android:dividerHeight">1dip</item>
+        <item name="android:footerDividersEnabled">false</item>
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbars">vertical</item>
+    </style><style name="list_item_wh" parent="text_large_wh">
+        <item name="android:background">@drawable/list_item_wh</item>
+        <item name="android:paddingTop">15sp</item>
+        <item name="android:paddingBottom">15sp</item>
+        <item name="android:paddingLeft">5sp</item>
+        <item name="android:paddingRight">5sp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style><style name="list_divider_wh" parent="list_divider">
+        <item name="android:background">@drawable/list_divider_wh</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2sp</item>
+    </style><style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style></file><file path="/home/julia/Downloads/SmartOrders/res/values/strings.xml" qualifiers=""><string name="app_name">Smart Orders</string><string name="main_title"/><string name="groups_label">Groups</string><string name="subgroups_label">Subgroups</string><string name="products_label">Products</string><string name="orders_label">Orders</string><string name="about_label">About</string><string name="exit_label">Exit</string><string name="new_game_title">Difficulty</string><string name="order_label">Order</string><string-array name="menu">
+        <item>Edit</item>
+        <item>Delete</item>
+        <item>Send</item>
+    </string-array><string name="queryart_label">Query</string><string name="sincro">Sincronització</string><string name="ftp_user">***</string><string name="ftp_pwd">***</string><color name="white">#FFFFFF</color><color name="black">#000000</color><string name="farright_text">I am the far right pane. I have an ImageButton control.</string><string name="right_text">Lion looking right in the right pane.</string><string name="middle_text">MONKEY in the middle pane.</string><string name="left_text">Zebra leaping left in the left pane.</string><string name="farleft_text">I am the far left pane. I have a Button.</string><string-array name="nav_options">
+        <item>Articles</item>
+        <item>Clients</item>
+        <item>Exportació</item>
+        <item>Importació</item>
+        <item>Backup</item>
+        <item>Configuració</item>
+        <item>Inicialitza BBDD</item>
+    </string-array><array name="navigation_iconos">
+        <item>@drawable/ic_action_user</item>
+        <item>@drawable/ic_action_star</item>
+        <item>@drawable/ic_action_event</item>
+        <item>@drawable/ic_action_place</item>
+        <item>@drawable/ic_action_labels</item>
+        <item>@drawable/ic_action_settings</item>
+        <item>@drawable/ic_action_share</item>
+    </array></file><file path="/home/julia/Downloads/SmartOrders/res/values/arrays.xml" qualifiers=""><string-array name="Connexio_FTP">
+        <item>@string/ftp_user</item>
+        <item>@string/ftp_pwd</item>
+    </string-array><string-array name="Situacio_document">
+        <item>Retingut</item>
+        <item>Pendent de Tramesa</item>
+        <item>Enviat</item>
+    </string-array><string-array name="sort_names">
+        <item>By Name, Ascending</item>
+        <item>By Name, Descending</item>
+        <item>By Type</item>
+        <item>By Address, Ascending</item>
+        <item>By Address, Descending</item>
+    </string-array><string-array name="sort_clauses">
+        <item>name ASC</item>
+        <item>name DESC</item>
+        <item>type, name ASC</item>
+        <item>address ASC</item>
+        <item>address DESC</item>
+    </string-array></file><file name="text_wh_large" path="/home/julia/Downloads/SmartOrders/res/color/text_wh_large.xml" qualifiers="" type="color"/><file name="text_wh_regular" path="/home/julia/Downloads/SmartOrders/res/color/text_wh_regular.xml" qualifiers="" type="color"/><file name="text_bl_regular" path="/home/julia/Downloads/SmartOrders/res/color/text_bl_regular.xml" qualifiers="" type="color"/><file name="detail_form" path="/home/julia/Downloads/SmartOrders/res/layout-land/detail_form.xml" qualifiers="land" type="layout"/><file name="fi_transmissio" path="/home/julia/Downloads/SmartOrders/res/raw/fi_transmissio.mp3" qualifiers="" type="raw"/><file name="color" path="/home/julia/Downloads/SmartOrders/res/raw/color.mp3" qualifiers="" type="raw"/><file name="insert" path="/home/julia/Downloads/SmartOrders/res/raw/insert.mp3" qualifiers="" type="raw"/><file name="capella" path="/home/julia/Downloads/SmartOrders/res/raw/capella.ogg" qualifiers="" type="raw"/><file name="ok" path="/home/julia/Downloads/SmartOrders/res/raw/ok.mp3" qualifiers="" type="raw"/><file name="preferences" path="/home/julia/Downloads/SmartOrders/res/xml/preferences.xml" qualifiers="" type="xml"/><file name="orderslist" path="/home/julia/Downloads/SmartOrders/res/layout/orderslist.xml" qualifiers="" type="layout"/><file name="group" path="/home/julia/Downloads/SmartOrders/res/layout/group.xml" qualifiers="" type="layout"/><file name="design" path="/home/julia/Downloads/SmartOrders/res/layout/design.xml" qualifiers="" type="layout"/><file name="tplantillalist_row" path="/home/julia/Downloads/SmartOrders/res/layout/tplantillalist_row.xml" qualifiers="" type="layout"/><file name="notification_layout" path="/home/julia/Downloads/SmartOrders/res/layout/notification_layout.xml" qualifiers="" type="layout"/><file name="products_row" path="/home/julia/Downloads/SmartOrders/res/layout/products_row.xml" qualifiers="" type="layout"/><file name="row" path="/home/julia/Downloads/SmartOrders/res/layout/row.xml" qualifiers="" type="layout"/><file name="impexp" path="/home/julia/Downloads/SmartOrders/res/layout/impexp.xml" qualifiers="" type="layout"/><file name="itm" path="/home/julia/Downloads/SmartOrders/res/layout/itm.xml" qualifiers="" type="layout"/><file name="viewflipper" path="/home/julia/Downloads/SmartOrders/res/layout/viewflipper.xml" qualifiers="" type="layout"/><file name="navigator" path="/home/julia/Downloads/SmartOrders/res/layout/navigator.xml" qualifiers="" type="layout"/><file name="tplantillalist" path="/home/julia/Downloads/SmartOrders/res/layout/tplantillalist.xml" qualifiers="" type="layout"/><file name="camera" path="/home/julia/Downloads/SmartOrders/res/layout/camera.xml" qualifiers="" type="layout"/><file name="webviewactivity" path="/home/julia/Downloads/SmartOrders/res/layout/webviewactivity.xml" qualifiers="" type="layout"/><file name="mainpager" path="/home/julia/Downloads/SmartOrders/res/layout/mainpager.xml" qualifiers="" type="layout"/><file name="subgroup" path="/home/julia/Downloads/SmartOrders/res/layout/subgroup.xml" qualifiers="" type="layout"/><file name="groups_row" path="/home/julia/Downloads/SmartOrders/res/layout/groups_row.xml" qualifiers="" type="layout"/><file name="menu" path="/home/julia/Downloads/SmartOrders/res/layout/menu.xml" qualifiers="" type="layout"/><file name="copyoftplantillalist_row" path="/home/julia/Downloads/SmartOrders/res/layout/copyoftplantillalist_row.xml" qualifiers="" type="layout"/><file name="copyofmainpager" path="/home/julia/Downloads/SmartOrders/res/layout/copyofmainpager.xml" qualifiers="" type="layout"/><file name="botons" path="/home/julia/Downloads/SmartOrders/res/layout/botons.xml" qualifiers="" type="layout"/><file name="querytool" path="/home/julia/Downloads/SmartOrders/res/layout/querytool.xml" qualifiers="" type="layout"/><file name="dialoglinia" path="/home/julia/Downloads/SmartOrders/res/layout/dialoglinia.xml" qualifiers="" type="layout"/><file name="dialogerror" path="/home/julia/Downloads/SmartOrders/res/layout/dialogerror.xml" qualifiers="" type="layout"/><file name="dialogpreferences" path="/home/julia/Downloads/SmartOrders/res/layout/dialogpreferences.xml" qualifiers="" type="layout"/><file name="cap" path="/home/julia/Downloads/SmartOrders/res/layout/cap.xml" qualifiers="" type="layout"/><file name="subgroups_row" path="/home/julia/Downloads/SmartOrders/res/layout/subgroups_row.xml" qualifiers="" type="layout"/><file name="header" path="/home/julia/Downloads/SmartOrders/res/layout/header.xml" qualifiers="" type="layout"/><file name="detail_form" path="/home/julia/Downloads/SmartOrders/res/layout/detail_form.xml" qualifiers="" type="layout"/><file name="find_product" path="/home/julia/Downloads/SmartOrders/res/layout/find_product.xml" qualifiers="" type="layout"/><file name="rutes" path="/home/julia/Downloads/SmartOrders/res/layout/rutes.xml" qualifiers="" type="layout"/><file name="product" path="/home/julia/Downloads/SmartOrders/res/layout/product.xml" qualifiers="" type="layout"/><file name="clients2" path="/home/julia/Downloads/SmartOrders/res/layout/clients2.xml" qualifiers="" type="layout"/><file name="group_spinner_row" path="/home/julia/Downloads/SmartOrders/res/layout/group_spinner_row.xml" qualifiers="" type="layout"/><file name="articles_row" path="/home/julia/Downloads/SmartOrders/res/layout/articles_row.xml" qualifiers="" type="layout"/><file name="farright" path="/home/julia/Downloads/SmartOrders/res/layout/farright.xml" qualifiers="" type="layout"/><file name="clients" path="/home/julia/Downloads/SmartOrders/res/layout/clients.xml" qualifiers="" type="layout"/><file name="articles" path="/home/julia/Downloads/SmartOrders/res/layout/articles.xml" qualifiers="" type="layout"/><file name="mapa" path="/home/julia/Downloads/SmartOrders/res/layout/mapa.xml" qualifiers="" type="layout"/><file name="cap2" path="/home/julia/Downloads/SmartOrders/res/layout/cap2.xml" qualifiers="" type="layout"/><file name="linies" path="/home/julia/Downloads/SmartOrders/res/layout/linies.xml" qualifiers="" type="layout"/><file name="cataleg" path="/home/julia/Downloads/SmartOrders/res/layout/cataleg.xml" qualifiers="" type="layout"/><file name="dialogregal" path="/home/julia/Downloads/SmartOrders/res/layout/dialogregal.xml" qualifiers="" type="layout"/><file name="activity_upload_documents" path="/home/julia/Downloads/SmartOrders/res/layout/activity_upload_documents.xml" qualifiers="" type="layout"/><file name="mainlogo" path="/home/julia/Downloads/SmartOrders/res/layout/mainlogo.xml" qualifiers="" type="layout"/><file name="button_bl" path="/home/julia/Downloads/SmartOrders/res/drawable/button_bl.xml" qualifiers="" type="drawable"/><file name="button_wh" path="/home/julia/Downloads/SmartOrders/res/drawable/button_wh.xml" qualifiers="" type="drawable"/><file name="white_container_bl" path="/home/julia/Downloads/SmartOrders/res/drawable/white_container_bl.xml" qualifiers="" type="drawable"/><file name="list_selector_linies" path="/home/julia/Downloads/SmartOrders/res/drawable/list_selector_linies.xml" qualifiers="" type="drawable"/><file name="ic_action_settings" path="/home/julia/Downloads/SmartOrders/res/drawable/ic_action_settings.png" qualifiers="" type="drawable"/><file name="icon" path="/home/julia/Downloads/SmartOrders/res/drawable/icon.png" qualifiers="" type="drawable"/><file name="ic_action_user" path="/home/julia/Downloads/SmartOrders/res/drawable/ic_action_user.png" qualifiers="" type="drawable"/><file name="ic_menu_delete" path="/home/julia/Downloads/SmartOrders/res/drawable/ic_menu_delete.png" qualifiers="" type="drawable"/><file name="reset" path="/home/julia/Downloads/SmartOrders/res/drawable/reset.png" qualifiers="" type="drawable"/><file name="hihgcopia" path="/home/julia/Downloads/SmartOrders/res/drawable/hihgcopia.png" qualifiers="" type="drawable"/><file name="camera" path="/home/julia/Downloads/SmartOrders/res/drawable/camera.png" qualifiers="" type="drawable"/><file name="restaurant" path="/home/julia/Downloads/SmartOrders/res/drawable/restaurant.png" qualifiers="" type="drawable"/><file name="list_item_wh_selected" path="/home/julia/Downloads/SmartOrders/res/drawable/list_item_wh_selected.xml" qualifiers="" type="drawable"/><file name="delete" path="/home/julia/Downloads/SmartOrders/res/drawable/delete.png" qualifiers="" type="drawable"/><file name="lock_open" path="/home/julia/Downloads/SmartOrders/res/drawable/lock_open.png" qualifiers="" type="drawable"/><file name="save" path="/home/julia/Downloads/SmartOrders/res/drawable/save.png" qualifiers="" type="drawable"/><file name="user_icon" path="/home/julia/Downloads/SmartOrders/res/drawable/user_icon.png" qualifiers="" type="drawable"/><file name="middle" path="/home/julia/Downloads/SmartOrders/res/drawable/middle.png" qualifiers="" type="drawable"/><file name="ic_launcher" path="/home/julia/Downloads/SmartOrders/res/drawable/ic_launcher.png" qualifiers="" type="drawable"/><file name="tick" path="/home/julia/Downloads/SmartOrders/res/drawable/tick.png" qualifiers="" type="drawable"/><file name="search_48" path="/home/julia/Downloads/SmartOrders/res/drawable/search_48.png" qualifiers="" type="drawable"/><file name="toast" path="/home/julia/Downloads/SmartOrders/res/drawable/toast.png" qualifiers="" type="drawable"/><file name="grupros" path="/home/julia/Downloads/SmartOrders/res/drawable/grupros.png" qualifiers="" type="drawable"/><file name="ic_menu_agenda" path="/home/julia/Downloads/SmartOrders/res/drawable/ic_menu_agenda.png" qualifiers="" type="drawable"/><file name="image2_bg" path="/home/julia/Downloads/SmartOrders/res/drawable/image2_bg.xml" qualifiers="" type="drawable"/><file name="ic_action_star" path="/home/julia/Downloads/SmartOrders/res/drawable/ic_action_star.png" qualifiers="" type="drawable"/><file name="ball_green" path="/home/julia/Downloads/SmartOrders/res/drawable/ball_green.png" qualifiers="" type="drawable"/><file name="add" path="/home/julia/Downloads/SmartOrders/res/drawable/add.png" qualifiers="" type="drawable"/><file name="back" path="/home/julia/Downloads/SmartOrders/res/drawable/back.png" qualifiers="" type="drawable"/><file name="nuevo2" path="/home/julia/Downloads/SmartOrders/res/drawable/nuevo2.png" qualifiers="" type="drawable"/><file name="image_bg" path="/home/julia/Downloads/SmartOrders/res/drawable/image_bg.xml" qualifiers="" type="drawable"/><file name="button_wh_selected" path="/home/julia/Downloads/SmartOrders/res/drawable/button_wh_selected.xml" qualifiers="" type="drawable"/><file name="white_container_wh" path="/home/julia/Downloads/SmartOrders/res/drawable/white_container_wh.xml" qualifiers="" type="drawable"/><file name="list_item_wh" path="/home/julia/Downloads/SmartOrders/res/drawable/list_item_wh.xml" qualifiers="" type="drawable"/><file name="gradient_bg_hover" path="/home/julia/Downloads/SmartOrders/res/drawable/gradient_bg_hover.xml" qualifiers="" type="drawable"/><file name="lock" path="/home/julia/Downloads/SmartOrders/res/drawable/lock.png" qualifiers="" type="drawable"/><file name="run" path="/home/julia/Downloads/SmartOrders/res/drawable/run.png" qualifiers="" type="drawable"/><file name="notes" path="/home/julia/Downloads/SmartOrders/res/drawable/notes.png" qualifiers="" type="drawable"/><file name="checkmark" path="/home/julia/Downloads/SmartOrders/res/drawable/checkmark.png" qualifiers="" type="drawable"/><file name="ic_menu_add" path="/home/julia/Downloads/SmartOrders/res/drawable/ic_menu_add.png" qualifiers="" type="drawable"/><file name="ic_action_share" path="/home/julia/Downloads/SmartOrders/res/drawable/ic_action_share.png" qualifiers="" type="drawable"/><file name="button_wh_normal" path="/home/julia/Downloads/SmartOrders/res/drawable/button_wh_normal.xml" qualifiers="" type="drawable"/><file name="ic_drawer" path="/home/julia/Downloads/SmartOrders/res/drawable/ic_drawer.png" qualifiers="" type="drawable"/><file name="ic_menu_back" path="/home/julia/Downloads/SmartOrders/res/drawable/ic_menu_back.png" qualifiers="" type="drawable"/><file name="list_item_bl" path="/home/julia/Downloads/SmartOrders/res/drawable/list_item_bl.xml" qualifiers="" type="drawable"/><file name="send" path="/home/julia/Downloads/SmartOrders/res/drawable/send.png" qualifiers="" type="drawable"/><file name="appico" path="/home/julia/Downloads/SmartOrders/res/drawable/appico.png" qualifiers="" type="drawable"/><file name="ic_menu_save" path="/home/julia/Downloads/SmartOrders/res/drawable/ic_menu_save.png" qualifiers="" type="drawable"/><file name="edittext_rounded_corners" path="/home/julia/Downloads/SmartOrders/res/drawable/edittext_rounded_corners.xml" qualifiers="" type="drawable"/><file name="ic_action_labels" path="/home/julia/Downloads/SmartOrders/res/drawable/ic_action_labels.png" qualifiers="" type="drawable"/><file name="r96wbv06" path="/home/julia/Downloads/SmartOrders/res/drawable/r96wbv06.bmp" qualifiers="" type="drawable"/><file name="ball_red" path="/home/julia/Downloads/SmartOrders/res/drawable/ball_red.png" qualifiers="" type="drawable"/><file name="boto_cercle" path="/home/julia/Downloads/SmartOrders/res/drawable/boto_cercle.xml" qualifiers="" type="drawable"/><file name="ic_menu_preferences" path="/home/julia/Downloads/SmartOrders/res/drawable/ic_menu_preferences.png" qualifiers="" type="drawable"/><file name="podcast" path="/home/julia/Downloads/SmartOrders/res/drawable/podcast.png" qualifiers="" type="drawable"/><file name="arrow_left" path="/home/julia/Downloads/SmartOrders/res/drawable/arrow_left.png" qualifiers="" type="drawable"/><file name="ic_menu_end_call" path="/home/julia/Downloads/SmartOrders/res/drawable/ic_menu_end_call.png" qualifiers="" type="drawable"/><file name="icono" path="/home/julia/Downloads/SmartOrders/res/drawable/icono.png" qualifiers="" type="drawable"/><file name="record" path="/home/julia/Downloads/SmartOrders/res/drawable/record.png" qualifiers="" type="drawable"/><file name="list_divider_bl" path="/home/julia/Downloads/SmartOrders/res/drawable/list_divider_bl.xml" qualifiers="" type="drawable"/><file name="list_item_wh_pressed" path="/home/julia/Downloads/SmartOrders/res/drawable/list_item_wh_pressed.xml" qualifiers="" type="drawable"/><file name="phone" path="/home/julia/Downloads/SmartOrders/res/drawable/phone.png" qualifiers="" type="drawable"/><file name="ic_action_event" path="/home/julia/Downloads/SmartOrders/res/drawable/ic_action_event.png" qualifiers="" type="drawable"/><file name="gradient2_bg" path="/home/julia/Downloads/SmartOrders/res/drawable/gradient2_bg.xml" qualifiers="" type="drawable"/><file name="title_bar_wh" path="/home/julia/Downloads/SmartOrders/res/drawable/title_bar_wh.xml" qualifiers="" type="drawable"/><file name="ic_menu_compass" path="/home/julia/Downloads/SmartOrders/res/drawable/ic_menu_compass.png" qualifiers="" type="drawable"/><file name="ic_menu_sorta" path="/home/julia/Downloads/SmartOrders/res/drawable/ic_menu_sorta.png" qualifiers="" type="drawable"/><file name="list" path="/home/julia/Downloads/SmartOrders/res/drawable/list.png" qualifiers="" type="drawable"/><file name="ic_menu_show_list" path="/home/julia/Downloads/SmartOrders/res/drawable/ic_menu_show_list.png" qualifiers="" type="drawable"/><file name="button_wh_pressed" path="/home/julia/Downloads/SmartOrders/res/drawable/button_wh_pressed.xml" qualifiers="" type="drawable"/><file name="list_divider_wh" path="/home/julia/Downloads/SmartOrders/res/drawable/list_divider_wh.xml" qualifiers="" type="drawable"/><file name="users" path="/home/julia/Downloads/SmartOrders/res/drawable/users.png" qualifiers="" type="drawable"/><file name="calendar" path="/home/julia/Downloads/SmartOrders/res/drawable/calendar.png" qualifiers="" type="drawable"/><file name="button_bl_normal" path="/home/julia/Downloads/SmartOrders/res/drawable/button_bl_normal.xml" qualifiers="" type="drawable"/><file name="nuevo" path="/home/julia/Downloads/SmartOrders/res/drawable/nuevo.png" qualifiers="" type="drawable"/><file name="ic_action_place" path="/home/julia/Downloads/SmartOrders/res/drawable/ic_action_place.png" qualifiers="" type="drawable"/><file name="animated_button1" path="/home/julia/Downloads/SmartOrders/res/drawable/animated_button1.xml" qualifiers="" type="drawable"/><file name="gray_gradient_background" path="/home/julia/Downloads/SmartOrders/res/drawable/gray_gradient_background.xml" qualifiers="" type="drawable"/><file name="taques" path="/home/julia/Downloads/SmartOrders/res/drawable/taques.png" qualifiers="" type="drawable"/><file name="gradient_bg" path="/home/julia/Downloads/SmartOrders/res/drawable/gradient_bg.xml" qualifiers="" type="drawable"/><file name="list_selector" path="/home/julia/Downloads/SmartOrders/res/drawable/list_selector.xml" qualifiers="" type="drawable"/><file name="ic_menu_help" path="/home/julia/Downloads/SmartOrders/res/drawable/ic_menu_help.png" qualifiers="" type="drawable"/><file name="help" path="/home/julia/Downloads/SmartOrders/res/drawable/help.png" qualifiers="" type="drawable"/><file name="option" path="/home/julia/Downloads/SmartOrders/res/menu/option.xml" qualifiers="" type="menu"/><file name="querymenu" path="/home/julia/Downloads/SmartOrders/res/menu/querymenu.xml" qualifiers="" type="menu"/><file name="icon" path="/home/julia/Downloads/SmartOrders/res/drawable-ldpi/icon.png" qualifiers="ldpi-v4" type="drawable"/><file name="save" path="/home/julia/Downloads/SmartOrders/res/drawable-ldpi/save.png" qualifiers="ldpi-v4" type="drawable"/><file name="users" path="/home/julia/Downloads/SmartOrders/res/drawable-ldpi/users.png" qualifiers="ldpi-v4" type="drawable"/><file name="calendar" path="/home/julia/Downloads/SmartOrders/res/drawable-ldpi/calendar.png" qualifiers="ldpi-v4" type="drawable"/><file name="nuevo" path="/home/julia/Downloads/SmartOrders/res/drawable-ldpi/nuevo.png" qualifiers="ldpi-v4" type="drawable"/><file name="icon" path="/home/julia/Downloads/SmartOrders/res/drawable-hdpi/icon.png" qualifiers="hdpi-v4" type="drawable"/><file name="save" path="/home/julia/Downloads/SmartOrders/res/drawable-hdpi/save.png" qualifiers="hdpi-v4" type="drawable"/><file name="users" path="/home/julia/Downloads/SmartOrders/res/drawable-hdpi/users.png" qualifiers="hdpi-v4" type="drawable"/><file name="calendar" path="/home/julia/Downloads/SmartOrders/res/drawable-hdpi/calendar.png" qualifiers="hdpi-v4" type="drawable"/><file name="nuevo" path="/home/julia/Downloads/SmartOrders/res/drawable-hdpi/nuevo.png" qualifiers="hdpi-v4" type="drawable"/><file name="flipin_reverse" path="/home/julia/Downloads/SmartOrders/res/anim/flipin_reverse.xml" qualifiers="" type="anim"/><file name="flipout" path="/home/julia/Downloads/SmartOrders/res/anim/flipout.xml" qualifiers="" type="anim"/><file name="flipout_reverse" path="/home/julia/Downloads/SmartOrders/res/anim/flipout_reverse.xml" qualifiers="" type="anim"/><file name="flipin" path="/home/julia/Downloads/SmartOrders/res/anim/flipin.xml" qualifiers="" type="anim"/><file name="icon" path="/home/julia/Downloads/SmartOrders/res/drawable-mdpi/icon.png" qualifiers="mdpi-v4" type="drawable"/><file name="save" path="/home/julia/Downloads/SmartOrders/res/drawable-mdpi/save.png" qualifiers="mdpi-v4" type="drawable"/><file name="users" path="/home/julia/Downloads/SmartOrders/res/drawable-mdpi/users.png" qualifiers="mdpi-v4" type="drawable"/><file name="calendar" path="/home/julia/Downloads/SmartOrders/res/drawable-mdpi/calendar.png" qualifiers="mdpi-v4" type="drawable"/><file name="nuevo" path="/home/julia/Downloads/SmartOrders/res/drawable-mdpi/nuevo.png" qualifiers="mdpi-v4" type="drawable"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/julia/Downloads/SmartOrders/build-types/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/julia/Downloads/SmartOrders/build-types/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/julia/Downloads/SmartOrders/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/julia/Downloads/SmartOrders/build/generated/res/resValues/debug"/></dataSet><mergedItems/></merger>

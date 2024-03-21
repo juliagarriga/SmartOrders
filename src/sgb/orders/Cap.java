@@ -294,9 +294,9 @@ public class Cap extends TPlantillaMant {
 						new DialogInterface.OnClickListener() {
 							public void onClick(DialogInterface dialog, int id) {
 								finalitzarComanda();
-								if (false) {
-									SendData p = new SendData();
-									p.send(act, "<AIXO ES UNA PROVA DE DADES>");
+								if (true) {
+//									SendData p = new SendData();
+//									p.send(act, "<AIXO ES UNA PROVA DE DADES>");
 									Utilitats.enviarComandaPerMail(act, helper,
 											document);
 								}

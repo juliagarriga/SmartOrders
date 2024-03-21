@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <sgb.orders.SGEdit
+                android:id="@+id/nomfiscal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nom Fiscal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <sgb.orders.SGEdit
+                android:id="@+id/telefon1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:editable="false"
+                android:hint="Telèfon 1"
+                android:inputType="textNoSuggestions|phone"
+                android:textColorHint="@color/puzzle_light" />
+
+            <sgb.orders.SGEdit
+                android:id="@+id/telefon2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:editable="false"
+                android:hint="Telèfon 2"
+                android:inputType="textNoSuggestions|phone"
+                android:textColorHint="@color/puzzle_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <sgb.orders.SGEdit
+                android:id="@+id/telefon3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:editable="false"
+                android:hint="Telèfon 3"
+                android:inputType="textNoSuggestions|phone"
+                android:textColorHint="@color/puzzle_light" />
+
+            <sgb.orders.SGEdit
+                android:id="@+id/mobil"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:editable="false"
+                android:hint="Mòbil"
+                android:inputType="textNoSuggestions|phone"
+                android:textColorHint="@color/puzzle_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <sgb.orders.SGEdit
+                android:id="@+id/nif"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="NIF"
+                android:inputType="textNoSuggestions" >
+
+                <requestFocus />
+            </sgb.orders.SGEdit>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <sgb.orders.SGEdit
+                android:id="@+id/mail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="e-mail"
+                android:inputType="textNoSuggestions|textEmailAddress" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <sgb.orders.SGEdit
+                android:id="@+id/observacions"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Observacions"
+                android:inputType="text|textMultiLine|textNoSuggestions" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <sgb.orders.SGEdit
+                android:id="@+id/adreca"
+                android:layout_width="318dp"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <sgb.orders.SGEdit
+                android:id="@+id/poblacio"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Poblacio"
+                android:inputType="text|textMultiLine|textNoSuggestions" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <sgb.orders.SGEdit
+                android:id="@+id/codipostal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="C.Postal"
+                android:inputType="text|textMultiLine|textNoSuggestions"
+                android:textColorHint="@color/puzzle_light" />
+
+            <sgb.orders.SGEdit
+                android:id="@+id/provincia"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:ems="10"
+                android:hint="Provincia"
+                android:inputType="text|textMultiLine|textNoSuggestions" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

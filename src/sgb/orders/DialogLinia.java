@@ -353,8 +353,12 @@ public class DialogLinia extends Dialog implements OnClickListener,
 		Utilitats.readArticles(helper, warticle, tmpPreus);
 		if (id != 0)
 			printPreus(tmpPreus);
-		else
-			printPreus(preus);
+		else {
+
+			Utilitats.reCalculaPreus(preus);
+
+			printPreus( preus );
+		}
 
 		Cursor cursorArt = Utilitats.getCursorArt();
 		stock.setText(cursorArt.getString(cursorArt.getColumnIndex("stock")));
@@ -452,6 +456,16 @@ public class DialogLinia extends Dialog implements OnClickListener,
 			ContentValues cv = new ContentValues();
 
 			// cv.put("_id", idLinia);
+
+			/* Perqué no passi el signe = ja que provoca incertesa si es modifica el camp dte. */
+
+			if (tmpPreus.tipDte == "=") {
+				tmpPreus.tipDte = "";
+				tmpPreus.dte = 0;
+			}
+
+
+
 			cv.put("docum", wdocument);
 			cv.put("codi_obs", this.fObs_lin.getValue());
 			cv.put("article", article.getText().toString());

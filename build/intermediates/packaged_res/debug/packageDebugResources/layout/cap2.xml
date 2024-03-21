@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/tplant_list_delete"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/delete" />
+
+        <sgb.orders.SGEdit
+            android:id="@+id/client_doc"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.90" />
+
+        <Button
+            android:id="@+id/tplant_list_save"
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/record" />
+
+        <Button
+            android:id="@+id/tplant_list_back"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/arrow_left" />
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/client_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:paddingTop="4dp"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView android:text="Client:" />
+
+            <sgb.orders.SGEdit
+                android:id="@+id/client_code"
+                android:inputType="textNoSuggestions" />
+
+            <sgb.orders.SGEdit android:id="@+id/client_state" />
+
+            <sgb.orders.SGEdit
+                android:id="@+id/client_date"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="date" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="Nom:" />
+
+            <sgb.orders.SGEdit
+                android:id="@+id/client_desc"
+                android:layout_span="3"
+                android:inputType="text|textAutoCorrect|textNoSuggestions" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="Total:" />
+
+            <sgb.orders.SGEdit
+                android:id="@+id/client_total"
+                android:gravity="right" />
+
+            <sgb.orders.SGEdit
+                android:id="@+id/client_entrega"
+                android:layout_span="2"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="date" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="Dtes :" />
+
+            <sgb.orders.SGEdit
+                android:id="@+id/client_dte_com"
+                android:gravity="right" />
+
+            <sgb.orders.SGEdit
+                android:id="@+id/client_dte_pp"
+                android:gravity="right" />
+
+            <sgb.orders.SGEdit
+                android:id="@+id/client_dte_grup"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow
+			android:visibility="gone">
+            <TextView android:text="Condicions:" />
+
+            <Spinner
+                android:id="@+id/spin_entrega_mati"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:prompt="@+id/situacioCap" />
+
+            <Spinner
+                android:id="@+id/spin_recullen"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_span="2" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Nota :" />
+            
+            <Spinner
+                android:id="@+id/spin_comentari"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_span="4"
+                android:prompt="@+id/situacioCap" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="Obs :" />
+
+            <sgb.orders.SGEdit
+                android:id="@+id/client_obs"
+                android:layout_span="4"
+                android:inputType="textMultiLine"
+                android:lines="3"
+                android:singleLine="false" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

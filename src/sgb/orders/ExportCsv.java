@@ -115,6 +115,9 @@ public class ExportCsv extends Thread {
 		String host = prefs.getString("ftpServer", "");
 		String userName = prefs.getString("ftpUser", "??");
 		String password = prefs.getString("ftpPwd", "??");
+		String port = prefs.getString("ftpPort", "");
+		if (port.length() <= 1)
+			port = "21";
 		prefs.close();
 
 		if (host.length() <= 0) {
@@ -126,8 +129,10 @@ public class ExportCsv extends Thread {
 		try {
 			ftp = new FTPClient();
 			ftp.setPassive(true);
-			ftp.connect(host);
+			ftp.connect(host,Integer.parseInt(port));
 			ftp.login(userName, password);
+
+
 			ftp.setType(FTPClient.TYPE_BINARY);
 			if (!carpeta.isEmpty())
 				ftp.changeDirectory(carpeta);
@@ -177,10 +182,13 @@ public class ExportCsv extends Thread {
 		String host = prefs.getString("ftpServer", "");
 		String userName = prefs.getString("ftpUser", "??");
 		String password = prefs.getString("ftpPwd", "??");
+		String port = prefs.getString("ftpPort", "");
+		if (port.length() <= 1)
+			port = "21";
 		prefs.close();
 
 		if (host.length() <= 0) {
-			host = "ftp.reset.cat";
+			host = "ftp.reset.es";
 			userName = "dem01";
 			password = "dem01pda";
 		}
@@ -188,7 +196,7 @@ public class ExportCsv extends Thread {
 		try {
 			ftp = new FTPClient();
 			ftp.setPassive(true);
-			ftp.connect(host);
+			ftp.connect(host,Integer.parseInt(port));
 			ftp.login(userName, password);
 			ftp.setType(FTPClient.TYPE_BINARY);
 

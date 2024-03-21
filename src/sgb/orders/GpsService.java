@@ -23,14 +23,14 @@ import android.provider.Settings;
 import android.util.Log;
 import android.widget.Toast;
 
-import org.apache.http.HttpEntity;
+/*import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
 import org.apache.http.StatusLine;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.impl.client.DefaultHttpClient;*/
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -74,7 +74,7 @@ public class GpsService extends Service {
 	};
 	
 	void EnviarPosicio(long longitud,long lat) {
-	       HttpClient httpClient = new DefaultHttpClient();  
+/*  	       HttpClient httpClient = new DefaultHttpClient();
 	        String url = "http://www.reset.es/geo/insertar_datos.php?usuari=1&data=2012-08-07&hora=10&longitut=1000&latitud=1112";
 	        HttpGet httpGet = new HttpGet(url);
 	        try {
@@ -101,7 +101,7 @@ public class GpsService extends Service {
 	            Toast.makeText(getBaseContext(), 
 	                    e.toString(), 
 	                    Toast.LENGTH_LONG).show();
-	        }
+	        } */
 	}
 	
 	class Gps implements LocationListener {
@@ -184,7 +184,7 @@ public class GpsService extends Service {
 		Intent notificationIntent = new Intent(this, EditPreferences.class);
 		PendingIntent contentIntent = PendingIntent.getActivity(this, 0, notificationIntent, 0);
 
-		notification.setLatestEventInfo(context, contentTitle, contentText, contentIntent);
+		// notification.setLatestEventInfo(context, contentTitle, contentText, contentIntent);
 
 		mNotificationManager.notify(1, notification);
 		

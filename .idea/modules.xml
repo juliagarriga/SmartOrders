@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SmartOrders.iml" filepath="$PROJECT_DIR$/SmartOrders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SmartOrders.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/SmartOrders.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SmartOrders.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SmartOrders.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SmartOrders.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/SmartOrders.unitTest.iml" />
     </modules>
   </component>
 </project>

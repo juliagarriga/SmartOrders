@@ -54,10 +54,15 @@ public class Ftp {
 		String host = prefs.getString("ftpServer", "");
 		String userName = prefs.getString("ftpUser", "");
 		String password = prefs.getString("ftpPwd", "");
+		String port = prefs.getString("ftpPort", "");
+		if (port.length() <= 1)
+			port = "21";
 		prefs.close();
 
 		ftp.setPassive(true);
-		ftp.connect(host);
+		ftp.setMLSDPolicy(FTPClient.MLSD_IF_SUPPORTED);
+		ftp.connect(host,Integer.parseInt(port));
+
 		ftp.login(userName, password);
 		ftp.setType(FTPClient.TYPE_BINARY);
 		return 1;
@@ -201,7 +206,7 @@ public class Ftp {
 									+ filRemot);
 			}
 		}
-		FTPFile[] listImgs = ftp.list(filRemot);
+	    FTPFile[] listImgs = ftp.list(filRemot);
 		if (listImgs.length <= 0)
 			if (!Throw)
 				return 0;
@@ -214,7 +219,12 @@ public class Ftp {
 			 * Date date = listImg.getModifiedDate(); long len =
 			 * ftp.fileSize(fl);
 			 */
-			ftp.download(fl, new File(fileLocal), listener);
+			try {
+				ftp.download( fl, new File( fileLocal ), listener );
+			}
+			catch (IOException e) {
+				Utilitats.Toast(act,"Error FTP DOWNLOAD : "+e.getMessage(),true);
+			}
 			downloaded++;
 
 		}
@@ -248,8 +258,14 @@ public class Ftp {
 				File miniatura = new File (DirLocal + "/_" + fl);
 				if (comparar = true  && miniatura.exists())
 					miniatura.delete();
+				try {
+					ftp.download( fl, new File( fitxer ), listener );
+				}
+				catch (IOException e) {
+						Utilitats.Toast(act,"Error FTP DOWNLOAD : "+e.getMessage(),true);
+					}
 
-				ftp.download(fl, new File(fitxer), listener);
+
 			}
 
 		}

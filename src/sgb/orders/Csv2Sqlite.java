@@ -93,6 +93,8 @@ public class Csv2Sqlite {
 				if (cur != null) {
 					int num = cur.getColumnCount();
 					for (int i = 0; i < num; ++i) {
+						if (error > 0 )
+							break;
 						String fieldName = cur.getColumnName(i);
 						List<CampTxt> cm = mapTaula.findKey(fieldName);
 						if (cm != null)
@@ -111,11 +113,19 @@ public class Csv2Sqlite {
 										&& !esIndex) {
 									int idx = 0;
 									if ((idx = reader.getIndex(csvFieldName)) < 0) {
-										Utilitats.Toast(act, file + ".("
+										String s1 =  file + ".("
 												+ csvFieldName + "->"
 												+ fieldName + ")"
-												+ " : No es troba el Camp");
+												+ " : No es troba el Camp";
+
+										Errors.appendLog(act, Errors.ERROR, "PROGRAMA",
+												s1);
+/*										Utilitats.Toast(act, file + ".("
+												+ csvFieldName + "->"
+												+ fieldName + ")"
+												+ " : No es troba el Camp"); */
 										error++;
+										break;
 									}
 								}
 							}

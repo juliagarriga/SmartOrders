@@ -19,7 +19,7 @@ public class DialogPreferences extends Dialog implements OnClickListener {
 	String 		PROGRAMA="DialogPreferences";
 
 
-	EditText user, password,server,compta,serie,amaga,perFamilia,carpeta;
+	EditText user, wport,password,server,compta,serie,amaga,perFamilia,carpeta;
 
 	public DialogPreferences(Context context,Activity act) {
 		super(context);
@@ -57,6 +57,7 @@ public class DialogPreferences extends Dialog implements OnClickListener {
 		carpeta = (EditText) findViewById(R.id.carpeta); 
 		user = (EditText) findViewById(R.id.usuari_ftp);
 		password = (EditText) findViewById(R.id.password_ftp);
+		wport = (EditText) findViewById(R.id.port_ftp);
 		server = (EditText) findViewById(R.id.server_ftp);
 		serie = (EditText) findViewById(R.id.serie);
 		amaga =  (EditText) findViewById(R.id.amaga);
@@ -70,6 +71,7 @@ public class DialogPreferences extends Dialog implements OnClickListener {
 		user.setText(prefs.getString("ftpUser", ""));
 		carpeta.setText(prefs.getString("ftpFolder", ""));
 		password.setText(prefs.getString("ftpPwd", ""));
+		wport.setText(prefs.getString("ftpPort", ""));
 		compta.setText(Long.toString(document));
 		amaga.setText(prefs.getString("amagar", ""));
 		perFamilia.setText(prefs.getString("perFamilia", ""));
@@ -89,6 +91,7 @@ public class DialogPreferences extends Dialog implements OnClickListener {
 			prefs.setString("ftpFolder", carpeta.getText().toString());
 			prefs.setString("ftpUser", user.getText().toString());
 			prefs.setString("ftpPwd", password.getText().toString());
+			prefs.setString("ftpPort", wport.getText().toString());
 			prefs.setString("ftpServer", server.getText().toString());
 			ct.setComptador(Long.parseLong(compta.getText().toString()));
 			prefs.setString("serie", serie.getText().toString());

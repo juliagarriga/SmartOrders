@@ -102,9 +102,9 @@ public class NavigationAdapter extends BaseAdapter {
 						click = true;
 						Thread proc = new Thread(new Runnable() {
 							public void run() {
-								if (Utilitats
-										.DescarregaFitxerSeguretat(activity) == true) {
-									if (Utilitats.ComprovaSeguretat(activity) == false)
+								if (true /*Utilitats
+										.DescarregaFitxerSeguretat(activity) == true*/) {
+									if (false /*Utilitats.ComprovaSeguretat(activity) == false*/)
 										Utilitats
 												.Toast(activity,
 														"Aplicació en modo demo. No es pot enviar",

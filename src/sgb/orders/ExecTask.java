@@ -1,5 +1,8 @@
 package sgb.orders;
 
+import static sgb.orders.R.*;
+
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ComponentName;
@@ -154,13 +157,12 @@ public class ExecTask extends Activity {
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		// check selected menu item
-		switch (item.getItemId()) {
-		case R.id.copydb:
+		if (item.getItemId() == R.id.copydb) {
 			String Sd1 = Environment.getExternalStorageState();
 			String Sd2 = Environment.MEDIA_MOUNTED;
 			if (!Environment.MEDIA_MOUNTED.equals(Sd1)) {
 				Toast.makeText(getApplicationContext(),
-						"External SD card not mounted", Toast.LENGTH_LONG)
+								"External SD card not mounted", Toast.LENGTH_LONG)
 						.show();
 			}
 
@@ -190,7 +192,7 @@ public class ExecTask extends Activity {
 							"COPIATS :" + copiats, Toast.LENGTH_SHORT).show();
 				} else
 					Toast.makeText(getApplicationContext(),
-							"BBDD No existeix\n" + currentDB, Toast.LENGTH_LONG)
+									"BBDD No existeix\n" + currentDB, Toast.LENGTH_LONG)
 							.show();
 
 			} catch (Exception e) {
@@ -198,9 +200,9 @@ public class ExecTask extends Activity {
 						"BBDD NO COPIADA\n :" + e.getMessage(),
 						Toast.LENGTH_LONG).show();
 			}
-			break;
+		}
 
-		case R.id.restoredb: {
+		if (item.getItemId() == R.id.restoredb) {
 			if (!Environment.MEDIA_MOUNTED.equals(Environment
 					.getExternalStorageState())) {
 				Toast.makeText(getApplicationContext(),
@@ -235,32 +237,32 @@ public class ExecTask extends Activity {
 			} catch (Exception e) {
 
 			}
-			break;
 		}
 
-		case R.id.init:
+
+		if (item.getItemId() == R.id.init) {
 
 			DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
 				@Override
 				public void onClick(DialogInterface dialog, int which) {
 					switch (which) {
-					case DialogInterface.BUTTON_POSITIVE:
-						// Yes button clicked
-						// helper.close();
-						if (deleteDatabase("andorders.db")) {
-							Log.d("Avis", "deleteDatabase(): database deleted.");
-							Toast.makeText(getApplicationContext(),
-									"Base de dades eliminada",
-									Toast.LENGTH_SHORT).show();
-						} else {
-							Toast.makeText(
-									getApplicationContext(),
-									"No ha estat possible d'esborrar la base de dades",
-									Toast.LENGTH_SHORT).show();
-						}
-						break;
+						case DialogInterface.BUTTON_POSITIVE:
+							// Yes button clicked
+							// helper.close();
+							if (deleteDatabase("andorders.db")) {
+								Log.d("Avis", "deleteDatabase(): database deleted.");
+								Toast.makeText(getApplicationContext(),
+										"Base de dades eliminada",
+										Toast.LENGTH_SHORT).show();
+							} else {
+								Toast.makeText(
+										getApplicationContext(),
+										"No ha estat possible d'esborrar la base de dades",
+										Toast.LENGTH_SHORT).show();
+							}
+							break;
 
-					case DialogInterface.BUTTON_NEGATIVE:
+						case DialogInterface.BUTTON_NEGATIVE:
 					}
 				}
 			};
@@ -269,60 +271,60 @@ public class ExecTask extends Activity {
 			builder.setMessage("Vol esborrar la Base de Dades?")
 					.setPositiveButton("Yes", dialogClickListener)
 					.setNegativeButton("No", dialogClickListener).show();
-			break;
+		}
 
-		case R.id.exportarSD:
-		case R.id.exportar:
+		if (item.getItemId() == R.id.exportar || item.getItemId() == R.id.exportarSD) {
 			final String perSD = item.getItemId() == R.id.exportarSD ? "S"
 					: null;
-			if (Utilitats.isOnline(this) == false)
-				break;
+			if (Utilitats.isOnline(this) == true) {
 
-			PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
-			wl = pm.newWakeLock(PowerManager.SCREEN_DIM_WAKE_LOCK,
-					"Sending Files");
-			wl.acquire();
+		/*			PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
+					wl = pm.newWakeLock(PowerManager.SCREEN_DIM_WAKE_LOCK,
+							"Sending Files");
+					wl.acquire(); */
 
-			Thread proc = new Thread(new Runnable() {
-				public void run() {
-					if (Utilitats.DescarregaFitxerSeguretat(ExecTask.this) == true) {
-						if (Utilitats.ComprovaSeguretat(ExecTask.this) == false)
-							Utilitats.Toast(ExecTask.this,
-									"Aplicació en modo demo. No es pot enviar",
-									true);
-						else {
-							if (Utilitats
-									.getConfig(ExecTask.this, "ModeImpExp")
-									.endsWith("ros"))
-								new ExportRos(ExecTask.this, perSD).start();
-							else
-								new ExportCsv(ExecTask.this, perSD).start();
+				Thread proc = new Thread(new Runnable() {
+					public void run() {
+						if (true /*Utilitats.DescarregaFitxerSeguretat(ExecTask.this) == true*/) {
+							if (false /*Utilitats.ComprovaSeguretat(ExecTask.this) == false*/)
+								Utilitats.Toast(ExecTask.this,
+										"Aplicació en modo demo. No es pot enviar",
+										true);
+							else {
+								if (Utilitats
+										.getConfig(ExecTask.this, "ModeImpExp")
+										.endsWith("ros"))
+									new ExportRos(ExecTask.this, perSD).start();
+								else
+									new ExportCsv(ExecTask.this, perSD).start();
+							}
 						}
 					}
 				}
+
+				);
+				proc.start();
 			}
+		}
 
-			);
-			proc.start();
-
-			break;
-		case R.id.importarSD:
+		/*if (item.getItemId() == R.id.importarSD) {
 			if (Utilitats.isOnline(this) == false)
 				break;
-
-		case R.id.importar:
+		}*/
+		if (item.getItemId() == R.id.importar) {
 			String prSD = item.getItemId() == R.id.importarSD ? "S" : null;
 
-			PowerManager pm2 = (PowerManager) getSystemService(Context.POWER_SERVICE);
+/*			PowerManager pm2 = (PowerManager) getSystemService(Context.POWER_SERVICE);
 			wl = pm2.newWakeLock(PowerManager.SCREEN_DIM_WAKE_LOCK,
 					"Receiving Files");
-			wl.acquire();
+			wl.acquire(); */
 			// it = new Intent(this, ImpExp.class);
 			it = new Intent(this, ImpMaps.class);
 			it.putExtra("PerSD", prSD);
 			startActivity(it);
-			break;
-		case R.id.gpsstart: {
+		}
+
+		if (item.getItemId() == R.id.gpsstart) {
 			// bindService(new Intent(this, GpsService.class), mConnection,
 			// Context.BIND_AUTO_CREATE);
 
@@ -330,18 +332,17 @@ public class ExecTask extends Activity {
 			startService(svc);
 			Toast.makeText(getApplicationContext(), "Arrancant Servei Gps",
 					Toast.LENGTH_SHORT).show();
-			break;
 
 		}
-		case R.id.gpsstop: {
+
+		if (item.getItemId() == R.id.gpsstop) {
 			stopService(new Intent(this, GpsServiceThread.class));
 			// unbindService(mConnection);
 
 			Toast.makeText(getApplicationContext(), "Parant Servei Gps",
 					Toast.LENGTH_SHORT).show();
-			break;
 		}
-		case R.id.gps:
+		if (item.getItemId() == R.id.gps) {
 			try {
 				/*
 				 * Intent searchAddress = new Intent(Intent.ACTION_VIEW,
@@ -356,12 +357,11 @@ public class ExecTask extends Activity {
 			} catch (Exception e) {
 				System.out.println(e);
 			}
-			break;
+		}
 
-		case R.id.prefs:
+		if (item.getItemId() == R.id.prefs) {
 
 			new DialogPreferences(this, this).show();
-			break;
 
 		}
 		return false;
@@ -435,6 +435,7 @@ public class ExecTask extends Activity {
 
 	/** Called when the activity is first created. */
 
+	@SuppressLint("MissingInflatedId")
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -738,42 +739,43 @@ public class ExecTask extends Activity {
 
 							AlertDialog.Builder builder = new AlertDialog.Builder(
 									activity);
-							builder.setMessage(
-									"Vol importar dades de demostració ?")
-									.setCancelable(true)
-									.setNegativeButton(
-											"No",
-											new DialogInterface.OnClickListener() {
-												@Override
-												public void onClick(
-														DialogInterface dialog,
-														int id) {
-												}
+                            builder.setMessage(
+                                    "Vol importar dades de demostració ?");
+                            builder.setCancelable(true);
+                            builder.setNegativeButton(
+                                    "No",
+                                    new DialogInterface.OnClickListener() {
+                                        @Override
+                                        public void onClick(
+                                                DialogInterface dialog,
+                                                int id) {
+                                        }
 
-											})
-									.setPositiveButton(
-											"Si",
-											new DialogInterface.OnClickListener() {
-												@Override
-												public void onClick(
-														DialogInterface dialog,
-														int id) {
+                                    });
+                            builder.setPositiveButton(
+                                    "Si",
+                                    new DialogInterface.OnClickListener() {
+                                        @SuppressLint("InvalidWakeLockTag")
+										@Override
+                                        public void onClick(
+                                                DialogInterface dialog,
+                                                int id) {
 
-													PowerManager pm2 = (PowerManager) getSystemService(Context.POWER_SERVICE);
-													wl = pm2.newWakeLock(
-															PowerManager.SCREEN_DIM_WAKE_LOCK,
-															"Receiving Files");
-													wl.acquire();
-													it = new Intent(
-															ExecTask.this,
-															// ImpExp.class);
-															ImpMaps.class);
-													startActivity(it);
-												}
+                                            PowerManager pm2 = (PowerManager) getSystemService(Context.POWER_SERVICE);
+                                            wl = pm2.newWakeLock(
+                                                    PowerManager.SCREEN_DIM_WAKE_LOCK,
+                                                    "Receiving Files");
+                                            wl.acquire();
+                                            it = new Intent(
+                                                    ExecTask.this,
+                                                    // ImpExp.class);
+                                                    ImpMaps.class);
+                                            startActivity(it);
+                                        }
 
-											});
+                                    });
 
-							AlertDialog alert = builder.create();
+                            AlertDialog alert = builder.create();
 							alert.show();
 
 						} else

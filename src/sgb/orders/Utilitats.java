@@ -733,7 +733,6 @@ public class Utilitats {
 		 * omple TPreus
 		 */
 
-		preus.dte = 0.0;
 		preus.tipDte = " ";
 		preus.preuBase = 0.0;
 		preus.preuTarifa = 0;
@@ -757,6 +756,9 @@ public class Utilitats {
 		curEsp = helper.getReadableDatabase().rawQuery(sql, param);
 		if (curEsp.getCount() > 0) {
 			while (curEsp.moveToNext() == true) {
+				String tip =  curEsp.getString(curEsp.getColumnIndex("tipus"));
+				String objecte =  curEsp.getString(curEsp.getColumnIndex("objecte"));
+				String subj =  curEsp.getString(curEsp.getColumnIndex("subjecte"));
 				double minim = curEsp.getFloat(curEsp.getColumnIndex("minim"));
 				if (minim == 1)
 					minim = 0;
@@ -803,9 +805,16 @@ public class Utilitats {
 			double quantitat) {
 		TPreus preus = new TPreus();
 
+		/* Mirem si el client te descompte línia */
+		Cursor cSub = Utilitats.readSubjecte( helper, subjecte);
+		preus.dte = 0;
+		if (cSub.getCount() > 0)
+			preus.dte = cSub.getFloat( cSub.getColumnIndex("dtegrup"));
+		cSub.close();
+
 		if (getDte(act, helper, subjecte, tarifa, article, familia, linia,
 				quantitat, preus)) {
-			so(act, R.raw.insert2);
+			so(act, R.raw.insert);
 		}
 		if (tarifa == null || tarifa.compareTo("1") < 0
 				|| tarifa.compareTo("6") > 0)
@@ -1021,7 +1030,8 @@ public class Utilitats {
 	}
 
 	static public List<Integer> getColumnTypes(OrdersHelper helper, String taula) {
-		List<Integer> types = new ArrayList<Integer>();
+		List<Integer> types
+				= new ArrayList<Integer>();
 		String sql = "pragma table_info(" + taula + ")";
 		int posCamp = -1;
 		Cursor c = helper.getReadableDatabase().rawQuery(sql, null);
@@ -1130,7 +1140,7 @@ public class Utilitats {
 		try {
 			String dir = Utilitats.getWorkFolder(act, Utilitats.CONFIG)
 					.getAbsolutePath();
-			ftp.Connecta("ftp.reset.cat", "ftpseg", "Tablets2015");
+			ftp.Connecta("ftp.reset.cat", "ftpseg", "Tablets2015_");
 			String Mac = getMac(act);
 			Mac = "TB" + Mac.replace(":", "").toUpperCase() + ".dat";
 			if (ftp.DownLoadFile(false,"", Mac, dir, Mac, false) == 0) {

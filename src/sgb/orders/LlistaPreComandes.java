@@ -78,7 +78,7 @@ public class LlistaPreComandes extends TPlantillaList {
 
 				if (i == 0)
 					command = command + "(";
-				command = command + " descripcio like '%" + temp[i] + "%' ";
+				command = command + " upper(article || ' ' || descripcio) like '%" + temp[i].toUpperCase() + "%' ";
 				if (temp.length == 1) // Només hi ha un camp de cerca
 					command = command + " or A.article = '" + temp[i] + "' ";
 			}

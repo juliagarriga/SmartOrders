@@ -6,6 +6,7 @@ import android.location.Location;
 import android.location.LocationListener;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Toast;
@@ -82,6 +83,16 @@ public class MenuOrders extends Activity implements OnClickListener {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+
+		setContentView(R.layout.activity_upload_documents);
+
+		if (android.os.Build.VERSION.SDK_INT > 9) {
+			StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder()
+					.permitAll().build();
+			StrictMode.setThreadPolicy(policy);
+		}
+
+
 //		requestWindowFeature(Window.FEATURE_PROGRESS); // Inicialitzaem
 														// progresbar de la
 														// caption

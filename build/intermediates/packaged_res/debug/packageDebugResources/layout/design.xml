@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@color/background" android:layout_height="fill_parent"
+	android:layout_width="fill_parent" android:padding="30dip"
+	android:orientation="horizontal">
+	<FrameLayout android:id="@android:id/tabcontent"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<ListView android:id="@+id/group_list" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" />
+		<TableLayout android:id="@+id/group_detail"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:stretchColumns="1" android:paddingTop="4px">
+			<TableRow>
+				<TextView android:text="Code Group:" />
+				<EditText android:id="@+id/group_code" />
+			</TableRow>
+			<TableRow>
+				<TextView android:text="Name :" />
+				<EditText android:id="@+id/group_name" />
+			</TableRow>
+			<Button android:id="@+id/crida_tool" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="Save Group" />
+		</TableLayout>
+	</FrameLayout>
+</LinearLayout>
