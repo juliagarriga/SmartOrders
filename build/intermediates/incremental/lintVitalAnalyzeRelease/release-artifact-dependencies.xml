@@ -1,0 +1,26 @@
+<dependencies>
+  <compile
+      roots="__local_aars__:/home/julia/Downloads/SmartOrders/libs/android-support-v4.jar:unspecified@jar,__local_aars__:/home/julia/Downloads/SmartOrders/libs/javacsv.jar:unspecified@jar,__local_aars__:/home/julia/Downloads/SmartOrders/libs/ftp4j-1.6.1.jar:unspecified@jar">
+    <dependency
+        name="__local_aars__:/home/julia/Downloads/SmartOrders/libs/android-support-v4.jar:unspecified@jar"
+        simpleName="__local_aars__:/home/julia/Downloads/SmartOrders/libs/android-support-v4.jar"/>
+    <dependency
+        name="__local_aars__:/home/julia/Downloads/SmartOrders/libs/javacsv.jar:unspecified@jar"
+        simpleName="__local_aars__:/home/julia/Downloads/SmartOrders/libs/javacsv.jar"/>
+    <dependency
+        name="__local_aars__:/home/julia/Downloads/SmartOrders/libs/ftp4j-1.6.1.jar:unspecified@jar"
+        simpleName="__local_aars__:/home/julia/Downloads/SmartOrders/libs/ftp4j-1.6.1.jar"/>
+  </compile>
+  <package
+      roots="__local_aars__:/home/julia/Downloads/SmartOrders/libs/android-support-v4.jar:unspecified@jar,__local_aars__:/home/julia/Downloads/SmartOrders/libs/javacsv.jar:unspecified@jar,__local_aars__:/home/julia/Downloads/SmartOrders/libs/ftp4j-1.6.1.jar:unspecified@jar">
+    <dependency
+        name="__local_aars__:/home/julia/Downloads/SmartOrders/libs/android-support-v4.jar:unspecified@jar"
+        simpleName="__local_aars__:/home/julia/Downloads/SmartOrders/libs/android-support-v4.jar"/>
+    <dependency
+        name="__local_aars__:/home/julia/Downloads/SmartOrders/libs/javacsv.jar:unspecified@jar"
+        simpleName="__local_aars__:/home/julia/Downloads/SmartOrders/libs/javacsv.jar"/>
+    <dependency
+        name="__local_aars__:/home/julia/Downloads/SmartOrders/libs/ftp4j-1.6.1.jar:unspecified@jar"
+        simpleName="__local_aars__:/home/julia/Downloads/SmartOrders/libs/ftp4j-1.6.1.jar"/>
+  </package>
+</dependencies>

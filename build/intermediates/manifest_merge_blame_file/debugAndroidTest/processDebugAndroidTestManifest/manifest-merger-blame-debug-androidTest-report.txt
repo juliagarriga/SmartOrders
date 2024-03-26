@@ -1,0 +1,34 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="sgb.orders.test" >
+4
+5    <uses-sdk
+5-->/home/julia/Downloads/SmartOrders/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5115745678092759724.xml:5:5-74
+6        android:minSdkVersion="19"
+6-->/home/julia/Downloads/SmartOrders/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5115745678092759724.xml:5:15-41
+7        android:targetSdkVersion="19" />
+7-->/home/julia/Downloads/SmartOrders/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5115745678092759724.xml:5:42-71
+8
+9    <instrumentation
+9-->/home/julia/Downloads/SmartOrders/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5115745678092759724.xml:11:5-15:60
+10        android:name="android.test.InstrumentationTestRunner"
+10-->/home/julia/Downloads/SmartOrders/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5115745678092759724.xml:11:22-75
+11        android:functionalTest="false"
+11-->/home/julia/Downloads/SmartOrders/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5115745678092759724.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/home/julia/Downloads/SmartOrders/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5115745678092759724.xml:13:22-53
+13        android:label="Tests for sgb.orders"
+13-->/home/julia/Downloads/SmartOrders/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5115745678092759724.xml:15:22-58
+14        android:targetPackage="sgb.orders" />
+14-->/home/julia/Downloads/SmartOrders/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5115745678092759724.xml:12:22-56
+15
+16    <application
+16-->/home/julia/Downloads/SmartOrders/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5115745678092759724.xml:7:5-9:19
+17        android:debuggable="true"
+18        android:extractNativeLibs="true" >
+19        <uses-library android:name="android.test.runner" />
+19-->/home/julia/Downloads/SmartOrders/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5115745678092759724.xml:8:9-60
+19-->/home/julia/Downloads/SmartOrders/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5115745678092759724.xml:8:23-57
+20    </application>
+21
+22</manifest>

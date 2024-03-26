@@ -14,10 +14,12 @@
     <output-test url="file://$MODULE_DIR$/../../build/intermediates/javac/debugAndroidTest/compileDebugAndroidTestJavaWithJavac/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../build/generated/ap_generated_sources/debugAndroidTest/out" />
-    <content url="file://$MODULE_DIR$/../../build/generated/res/resValues/androidTest/debug" />
+    <content url="file://$MODULE_DIR$/../../build/generated/res/resValues/androidTest/debug">
+      <sourceFolder url="file://$MODULE_DIR$/../../build/generated/res/resValues/androidTest/debug" type="java-test-resource" />
+    </content>
     <content url="file://$MODULE_DIR$/../../src/androidTestDebug" />
     <content url="file://$MODULE_DIR$/../../tests" />
-    <orderEntry type="jdk" jdkName="Android API 29 Platform" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android API 34, extension level 7 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="SmartOrders.main" scope="TEST" />
     <orderEntry type="library" scope="TEST" name="Gradle: ./libs/android-support-v4.jar" level="project" />

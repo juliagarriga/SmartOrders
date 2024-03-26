@@ -1,6 +1,7 @@
 package sgb.orders;
 
 
+import android.Manifest;
 import android.app.Activity;
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -9,12 +10,14 @@ import android.app.Service;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.database.sqlite.SQLiteConstraintException;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.media.MediaPlayer;
 import android.os.Binder;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
@@ -40,7 +43,6 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 
-
 public class GpsService extends Service {
 	OrdersHelper helper;
 	Activity act;
@@ -48,32 +50,32 @@ public class GpsService extends Service {
 	LocationManager locationManager;
 	Gps gps;
 	public static ServiceUpdateUIListener UI_UPDATE_LISTENER;
-	
-	
+
+
 	private Timer timer = new Timer();
 	private static final long UPDATE_INTERVAL = 50000;
 	private final IBinder mBinder = new MyBinder();
 	private ArrayList<String> list = new ArrayList<String>();
-	
-	
-	  @Override
-	  public int onStartCommand(Intent intent, int flags, int startId) {
-	    return(START_NOT_STICKY);
-	  }
-	
+
+
+	@Override
+	public int onStartCommand(Intent intent, int flags, int startId) {
+		return (START_NOT_STICKY);
+	}
+
 	public static void setUpdateListener(ServiceUpdateUIListener l) {
 		UI_UPDATE_LISTENER = l;
 	}
-	
-	
+
+
 	private Handler handler = new Handler() {
 		@Override
 		public void handleMessage(Message msg) {
 //			UI_UPDATE_LISTENER.update(long longitut,long latitud);
 		}
 	};
-	
-	void EnviarPosicio(long longitud,long lat) {
+
+	void EnviarPosicio(long longitud, long lat) {
 /*  	       HttpClient httpClient = new DefaultHttpClient();
 	        String url = "http://www.reset.es/geo/insertar_datos.php?usuari=1&data=2012-08-07&hora=10&longitut=1000&latitud=1112";
 	        HttpGet httpGet = new HttpGet(url);
@@ -103,31 +105,30 @@ public class GpsService extends Service {
 	                    Toast.LENGTH_LONG).show();
 	        } */
 	}
-	
+
 	class Gps implements LocationListener {
 
 		private OrdersHelper helper;
-		
+
 		Gps(OrdersHelper helper) {
 			this.helper = helper;
 		}
-		
+
 		public void onLocationChanged(Location location) {
 			ContentValues cv = new ContentValues();
 
 			try {
-				long latitude =   (long)(location.getLatitude()*1E6);
-				long longitude =   (long)(location.getLongitude()*1E6);
-			
-			cv.put("user", "user");
-			cv.put("session", "1000");
-			cv.put("datetime", "current_timestamp");
-			cv.put("latitude", latitude);
-			cv.put("longitude", longitude);
-			long rt = helper.getWritableDatabase().insertOrThrow(
-							"Locations", "", cv);
-			}
-			catch (SQLiteConstraintException e) {
+				long latitude = (long) (location.getLatitude() * 1E6);
+				long longitude = (long) (location.getLongitude() * 1E6);
+
+				cv.put("user", "user");
+				cv.put("session", "1000");
+				cv.put("datetime", "current_timestamp");
+				cv.put("latitude", latitude);
+				cv.put("longitude", longitude);
+				long rt = helper.getWritableDatabase().insertOrThrow(
+						"Locations", "", cv);
+			} catch (SQLiteConstraintException e) {
 				Errors.appendLog(act, Errors.ERROR, "GpsService",
 						"Error inserint linia", e, cv);
 				Toast.makeText(act, e.getMessage(), Toast.LENGTH_SHORT)
@@ -144,13 +145,13 @@ public class GpsService extends Service {
 /*			Errors.appendLog(act, Errors.ERROR, "GpsService",
 					"Prova en cas d'error" );
 			Toast.makeText(act, "No es un error, és una prova", Toast.LENGTH_SHORT)
-					.show();  */ 
+					.show();  */
 
 		}
 
 		public void onProviderDisabled(String provider) {
-				list.add("Desconnectat");
-			
+			list.add("Desconnectat");
+
 		}
 
 		public void onProviderEnabled(String provider) {
@@ -159,9 +160,9 @@ public class GpsService extends Service {
 
 		public void onStatusChanged(String provider, int status, Bundle extras) {
 			// TODO Auto-generated method stub
-			
+
 		}
-		
+
 	}
 
 	public void onCreate() {
@@ -169,8 +170,8 @@ public class GpsService extends Service {
 
 		helper = new OrdersHelper(this);
 		gps = new Gps(helper);
-		
-		
+
+
 		String ns = Context.NOTIFICATION_SERVICE;
 		NotificationManager mNotificationManager = (NotificationManager) getSystemService(ns);
 		int icon = R.drawable.checkmark;
@@ -182,16 +183,26 @@ public class GpsService extends Service {
 		CharSequence contentTitle = "My notification";
 		CharSequence contentText = "Hello World!";
 		Intent notificationIntent = new Intent(this, EditPreferences.class);
-		PendingIntent contentIntent = PendingIntent.getActivity(this, 0, notificationIntent, 0);
+		PendingIntent contentIntent = PendingIntent.getActivity(this, 0, notificationIntent, PendingIntent.FLAG_IMMUTABLE);
 
 		// notification.setLatestEventInfo(context, contentTitle, contentText, contentIntent);
 
 		mNotificationManager.notify(1, notification);
-		
-		
-		
-		
+
+
 		locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+			if (checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+				// TODO: Consider calling
+				//    Activity#requestPermissions
+				// here to request the missing permissions, and then overriding
+				//   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+				//                                          int[] grantResults)
+				// to handle the case where the user grants the permission. See the documentation
+				// for Activity#requestPermissions for more details.
+				return;
+			}
+		}
 		locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 12000, 0, gps);
 		boolean enabled = locationManager
 		  .isProviderEnabled(LocationManager.GPS_PROVIDER);

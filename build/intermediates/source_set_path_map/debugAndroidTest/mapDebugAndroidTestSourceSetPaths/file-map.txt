@@ -1,0 +1,4 @@
+sgb.orders.test-androidTest-0 /home/julia/Downloads/SmartOrders/build/generated/res/resValues/androidTest/debug
+sgb.orders.test-mergeDebugAndroidTestResources-1 /home/julia/Downloads/SmartOrders/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+sgb.orders.test-mergeDebugAndroidTestResources-2 /home/julia/Downloads/SmartOrders/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+sgb.orders.test-debugAndroidTest-3 /home/julia/Downloads/SmartOrders/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

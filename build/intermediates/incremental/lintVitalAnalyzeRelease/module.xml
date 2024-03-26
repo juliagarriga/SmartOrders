@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/home/julia/Downloads/SmartOrders"
+    name=":"
+    type="APP"
+    maven=":SmartOrders:"
+    agpVersion="8.3.1"
+    buildFolder="build"
+    bootClassPath="/root/Android/Sdk/platforms/android-34/android.jar:/root/Android/Sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

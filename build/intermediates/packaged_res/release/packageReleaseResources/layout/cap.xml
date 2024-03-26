@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/tplant_list_delete"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/delete" />
+
+        <sgb.orders.SGEdit
+            android:id="@+id/client_doc"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.90"
+            android:hint="Comanda Número" />
+
+        <Button
+            android:id="@+id/tplant_list_save"
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/record" />
+
+        <Button
+            android:id="@+id/tplant_list_back"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/arrow_left" />
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/client_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:paddingTop="4dp"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView android:text="Client" />
+
+            <TextView android:text="Situació" />
+
+            <TextView android:text="Data" />
+        </TableRow>
+
+        <TableRow>
+
+            <sgb.orders.SGEdit
+                android:id="@+id/client_code"
+                android:hint="Codi Client"
+                android:inputType="textNoSuggestions" />
+
+            <sgb.orders.SGEdit android:id="@+id/client_state" />
+
+            <sgb.orders.SGEdit
+                android:id="@+id/client_date"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="Estat"
+                android:inputType="date" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="Nom" />
+        </TableRow>
+
+        <TableRow>
+
+            <sgb.orders.SGEdit
+                android:id="@+id/client_desc"
+                android:layout_span="3"
+                android:inputType="text|textAutoCorrect|textNoSuggestions" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="Total Comanda €" />
+
+            <TextView android:text="Data Entrega" />
+        </TableRow>
+
+        <TableRow>
+
+            <sgb.orders.SGEdit
+                android:id="@+id/client_total"
+                android:gravity="right"
+                android:layout_marginRight="10dp"
+                android:hint="Total Comanda €" />
+
+            <sgb.orders.SGEdit
+                android:id="@+id/client_entrega"
+                android:layout_span="2"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="Entrega"
+                android:inputType="date" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="Dte.Com." />
+            <TextView android:text="Dte.PP." />
+            <TextView android:text="Dte.Lin." />
+        </TableRow>
+
+        <TableRow>
+
+            <sgb.orders.SGEdit
+                android:id="@+id/client_dte_com"
+                android:layout_weight="3.3"
+                android:hint="Dte.Com." />
+
+            <sgb.orders.SGEdit
+                android:id="@+id/client_dte_pp"
+                android:layout_weight="3.3"
+                android:hint="Dte.PP." />
+
+            <sgb.orders.SGEdit
+                android:id="@+id/client_dte_grup"
+                android:layout_weight="3.3"
+                android:hint="Dte.Linia." />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="Servir al .." />
+
+            <TextView android:text="Tipus Entrega" />
+        </TableRow>
+
+        <TableRow>
+
+            <Spinner
+                android:id="@+id/spin_entrega_mati"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:prompt="@+id/situacioCap" />
+
+            <Spinner
+                android:id="@+id/spin_recullen"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_span="2" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="Nota" />
+        </TableRow>
+
+        <TableRow>
+
+            <Spinner
+                android:id="@+id/spin_comentari"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_span="4"
+                android:prompt="@+id/situacioCap" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="Observacions" />
+        </TableRow>
+
+        <TableRow>
+
+            <sgb.orders.SGEdit
+                android:id="@+id/client_obs"
+                android:layout_height="100dp"
+                android:layout_span="4"
+                android:hint="Observacions"
+                android:inputType="textMultiLine"
+                android:singleLine="false" />
+        </TableRow>
+
+        <TableRow>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

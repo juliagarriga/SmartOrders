@@ -94,7 +94,7 @@ public class ServeiBoot extends Service {
 
 			Intent notificationIntent = new Intent(this, ExecTask.class);
 			PendingIntent contentIntent = PendingIntent.getActivity(this, 0,
-					notificationIntent, 0);
+					notificationIntent, PendingIntent.FLAG_IMMUTABLE);
 			notification.contentIntent = contentIntent;
 
 			notificationManager.notify(NOTIFICATION_ID, notification);

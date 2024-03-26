@@ -1,4 +1,4 @@
-#Thu Mar 21 20:51:37 CET 2024
+#Tue Mar 26 11:39:45 CET 2024
 base.0=/home/julia/Downloads/SmartOrders/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

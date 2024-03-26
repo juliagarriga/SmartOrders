@@ -1,0 +1,158 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="sgb.orders"
+4    android:versionCode="14"
+5    android:versionName="1.14" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:6:5-76
+11-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:6:22-73
+12    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+12-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:7:5-77
+12-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:7:22-74
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:7:5-77
+13-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:7:22-74
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:9:5-81
+14-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:10:5-68
+15-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:10:22-65
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:11:5-80
+16-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:11:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:12:5-81
+17-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+18-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:13:5-81
+18-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:13:22-78
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:14:5-79
+19-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:14:22-76
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:15:5-67
+20-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:15:22-64
+21    <uses-permission android:name="android.permission.EXTERNAL_STORAGE" />
+21-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:16:5-75
+21-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:16:22-72
+22    <uses-permission android:name="android.permission.WRITE_OWNER_DATA" />
+22-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:17:5-75
+22-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:17:22-72
+23    <uses-permission android:name="android.permission.VIBRATE" />
+23-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:18:5-66
+23-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:18:22-63
+24    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+24-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:19:5-79
+24-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:19:22-76
+25    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+25-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:20:5-81
+25-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:20:22-78
+26    <uses-permission android:name="android.permission.CAMERA" />
+26-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:21:5-65
+26-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:21:22-62
+27
+28    <uses-feature android:name="android.hardware.camera" />
+28-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:23:5-60
+28-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:23:19-57
+29    <uses-feature android:name="android.hardware.telephony" />
+29-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:24:5-63
+29-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:24:19-60
+30
+31    <uses-permission android:name="android.permission.CALL_PHONE" />
+31-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:25:5-69
+31-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:25:22-66
+32
+33    <application
+33-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:27:5-73:19
+34        android:name="sgb.orders.SmartApplication"
+34-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:28:9-40
+35        android:extractNativeLibs="true"
+36        android:icon="@drawable/appico"
+36-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:29:9-40
+37        android:label="@string/app_name" >
+37-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:30:9-41
+38        <activity
+38-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:31:9-41:20
+39            android:name="sgb.orders.MenuOrders"
+39-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:32:13-39
+40            android:exported="true"
+40-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:34:13-36
+41            android:label="@string/app_name"
+41-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:33:13-45
+42            android:screenOrientation="portrait" >
+42-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:35:13-49
+43            <intent-filter>
+43-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:36:13-40:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:37:17-69
+44-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:37:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:39:17-77
+46-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:39:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:42:9-46:20
+50            android:name="sgb.orders.ExecTask"
+50-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:43:13-37
+51            android:screenOrientation="portrait"
+51-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:44:13-49
+52            android:windowSoftInputMode="adjustPan" >
+52-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:45:13-52
+53        </activity>
+54        <activity
+54-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:47:9-50:20
+55            android:name="sgb.orders.WebViewActivity"
+55-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:48:13-44
+56            android:screenOrientation="portrait" >
+56-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:49:13-49
+57        </activity>
+58        <activity
+58-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:51:9-55:20
+59            android:name="sgb.orders.DialogError"
+59-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:52:13-40
+60            android:screenOrientation="portrait"
+60-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:53:13-49
+61            android:theme="@style/Theme.Transparent" >
+61-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:54:13-53
+62        </activity>
+63        <activity
+63-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:56:9-59:20
+64            android:name="sgb.orders.ImpExp2014"
+64-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:57:13-39
+65            android:screenOrientation="portrait" >
+65-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:58:13-49
+66        </activity>
+67        <activity
+67-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:60:9-63:20
+68            android:name="sgb.orders.ImpMaps"
+68-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:61:13-36
+69            android:screenOrientation="portrait" >
+69-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:62:13-49
+70        </activity>
+71        <activity
+71-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:64:9-67:20
+72            android:name="sgb.orders.ImpExp"
+72-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:65:13-35
+73            android:screenOrientation="portrait" >
+73-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:66:13-49
+74        </activity>
+75        <activity android:name="sgb.orders.Cataleg" >
+75-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:68:9-69:20
+75-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:68:19-42
+76        </activity>
+77
+78        <service android:name="sgb.orders.GpsServiceThread" >
+78-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:71:9-72:19
+78-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:71:18-49
+79        </service>
+80    </application>
+81
+82</manifest>

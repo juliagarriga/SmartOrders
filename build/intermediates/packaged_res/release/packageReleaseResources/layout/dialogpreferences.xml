@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:orientation="vertical" >
+
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel·lar" />
+
+        <Button
+            android:id="@+id/gravar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Gravar" />
+    </LinearLayout>
+    
+        
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/preferences_access"
+            android:inputType="textPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:editable="true"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/preferences_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="4px"
+        android:stretchColumns="1"
+        android:visible="false" >
+
+        <TableRow>
+
+            <TextView android:text="Server :" />
+
+            <EditText
+                android:id="@+id/server_ftp"
+                android:editable="true"
+                android:focusable="true" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="Usuari FTP :" />
+
+            <EditText
+                android:id="@+id/usuari_ftp"
+                android:editable="true"
+                android:focusable="true" />
+        </TableRow>
+        <TableRow>
+
+            <TextView android:text="Port FTP :" />
+
+            <EditText
+                android:id="@+id/port_ftp"
+                android:focusable="true" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="Password :" />
+
+            <EditText
+                android:id="@+id/password_ftp"
+                android:editable="true"
+                android:focusable="true" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="Serie :" />
+
+            <EditText
+                android:id="@+id/serie"
+                android:editable="true"
+                android:focusable="true" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="Carpeta :" />
+
+            <EditText
+                android:id="@+id/carpeta"
+                android:editable="true"
+                android:focusable="true" />
+        </TableRow>
+        
+        <TableRow>
+
+            <TextView android:text="Comptador :" />
+
+            <EditText
+                android:id="@+id/comptador"
+                android:editable="true"
+                android:focusable="true" />
+        </TableRow>
+        
+        <TableRow>
+
+            <TextView android:text="Amaga sel. :" />
+
+            <EditText
+                android:id="@+id/amaga"
+                android:editable="true"
+                android:focusable="true" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="Per Familia :" />
+
+            <EditText
+                android:id="@+id/perFamilia"
+                android:editable="true"
+                android:focusable="true" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="" />
+
+            <EditText
+                android:id="@+id/mac"
+                android:editable="false"
+                android:focusable="false" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

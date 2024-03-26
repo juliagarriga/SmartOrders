@@ -1,0 +1,7 @@
+sgb.orders-release-0 /home/julia/Downloads/SmartOrders/build-types/release/res
+sgb.orders-pngs-1 /home/julia/Downloads/SmartOrders/build/generated/res/pngs/release
+sgb.orders-resValues-2 /home/julia/Downloads/SmartOrders/build/generated/res/resValues/release
+sgb.orders-packageReleaseResources-3 /home/julia/Downloads/SmartOrders/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+sgb.orders-packageReleaseResources-4 /home/julia/Downloads/SmartOrders/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+sgb.orders-release-5 /home/julia/Downloads/SmartOrders/build/intermediates/merged_res/release/mergeReleaseResources
+sgb.orders-SmartOrders-6 /home/julia/Downloads/SmartOrders/res

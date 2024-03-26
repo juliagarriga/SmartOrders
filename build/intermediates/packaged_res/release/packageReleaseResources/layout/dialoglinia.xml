@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:id="@+id/articles_detall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="4px" >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_weight="1" >
+
+                <sgb.orders.SGEdit
+                    android:id="@+id/linies_article"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:hint="Article"
+                    android:singleLine="true"
+                     />
+
+                <sgb.orders.SGEdit
+                    android:id="@+id/linies_preutarifa"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="Tar."
+                    android:imeOptions="actionNext"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:singleLine="true" />
+
+                <sgb.orders.SGEdit
+                    android:id="@+id/linies_stock"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:gravity="right"
+                    android:hint="Stk"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true" />
+
+                <Button
+                    android:id="@+id/linies_modifpreus"
+
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <sgb.orders.SGEdit
+                    android:id="@+id/linies_descripcio"
+                    android:layout_span="5"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:hint="Descripció"
+                    android:imeOptions="actionNext"
+                    android:inputType="textNoSuggestions|textCapCharacters|textMultiLine"
+                    android:selectAllOnFocus="true"
+                    android:text="SSS" />
+            </TableRow>
+
+            <TableRow>
+
+                <sgb.orders.SGEdit
+                    android:id="@+id/linies_quantitat"
+                    android:focusable="true"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:focusableInTouchMode="true"
+                    android:hint="Qty."
+                    android:imeOptions="actionDone"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true" />
+
+                <sgb.orders.SGEdit
+                    android:id="@+id/linies_preu"
+                    android:hint=" "
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:nextFocusForward="@+id/linies_tipdte"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true" />
+
+                <sgb.orders.SGEdit
+                    android:id="@+id/linies_tipdte"
+                    android:hint="TD."
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:enabled="false"
+                    android:imeOptions="actionNext"
+                    android:inputType="textCapCharacters"
+                    android:nextFocusForward="@+id/linies_dte"
+                    android:singleLine="true" />
+
+                <sgb.orders.SGEdit
+                    android:id="@+id/linies_dte"
+                    android:hint="Dte."
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:selectAllOnFocus="true"
+                    android:nextFocusForward="@+id/observacions"
+                    android:singleLine="true" />
+
+                <sgb.orders.SGEdit
+                    android:id="@+id/linies_total_lin"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:focusable="false"
+                    android:hint="Total"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow>
+
+                <Spinner
+                    android:id="@+id/spin_lin_obs"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_span="5" />
+
+                <!--
+     -                 <TextView
+                    android:id="@+id/linies_format"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2" />
+                -->
+            </TableRow>
+
+            <TableRow>
+
+                <sgb.orders.SGEdit
+                    android:id="@+id/observacions"
+                    android:layout_span="5"
+                    android:imeOptions="actionNext"
+                    android:inputType="textMultiLine"
+                    android:selectAllOnFocus="false"
+                    android:singleLine="false" />
+            </TableRow>
+
+            <TableRow>
+
+                <TableRow>
+
+                    <sgb.orders.SGEdit
+                        android:id="@+id/descripcio_regal"
+                        android:layout_span="5"
+                        android:imeOptions="actionNext"
+                        android:selectAllOnFocus="false"
+                        android:singleLine="true" />
+                </TableRow>
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <sgb.orders.SGEdit
+                android:id="@+id/article_regal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_rounded_corners"
+                android:editable="false"
+                android:focusable="false"
+                android:hint="Art.Regal"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:visible="false" />
+
+            <sgb.orders.SGEdit
+                android:id="@+id/quantitat_regal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:focusable="false"
+                android:hint=" "
+                android:imeOptions="actionNext"
+                android:inputType="numberDecimal|numberSigned"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:visible="false" />
+
+            <Button
+                android:id="@+id/linies_regal"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/search_48"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:visible="false" />
+
+            <Button
+                android:id="@+id/linies_borrar"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/delete"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+            <Button
+                android:id="@+id/linies_gravar"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/record"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
