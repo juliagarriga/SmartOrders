@@ -14,7 +14,7 @@ import java.util.Date;
 public class Mail {
 	public static void send(Context ctx,String logFile) {
 
-		String wFolder = Utilitats.comprovaFolder(Utilitats.LOGS).getAbsolutePath();
+		String wFolder = Utilitats.comprovaFolder(ctx, Utilitats.LOGS).getAbsolutePath();
 				
 		
 		/* Primer el renombrem */

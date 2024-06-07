@@ -1,5 +1,6 @@
 package sgb.orders;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ContentValues;
@@ -151,7 +152,7 @@ public class Utilitats {
 	static public String CursorFloatField(Cursor c, String field,
 			String format, char fillChar, int mult) {
 
-		String num = c.getString(c.getColumnIndex(field));
+		@SuppressLint("Range") String num = c.getString(c.getColumnIndex(field));
 		Double fnum = 0.0;
 		if (num != null) {
 			try {
@@ -172,7 +173,7 @@ public class Utilitats {
 	static public String CursorField(Cursor c, String field, String format,
 			char fillChar) {
 
-		String out = String
+		@SuppressLint("Range") String out = String
 				.format(format, c.getString(c.getColumnIndex(field))).replace(
 						' ', fillChar);
 		return out;
@@ -315,11 +316,11 @@ public class Utilitats {
 		return false;
 	}
 
-	static File comprovaFolder(String dir) {
-		File folder = new File(Environment.getExternalStorageDirectory() + dir);
+	static File comprovaFolder(Context context, String dir) {
+		File folder = new File(context.getFilesDir(), dir);
 
 		if (!folder.exists())
-			if (folder.mkdirs() == false)
+			if (!folder.mkdir())
 				return null;
 		return folder;
 	}
@@ -344,36 +345,38 @@ public class Utilitats {
 	}
 
 	public static File getWorkFolder(Activity act, String fold) {
-		if (comprovaFolder("/sgb.orders") == null) {
+		Context ctx = act.getApplicationContext();
+		if (comprovaFolder(ctx, "/sgb.orders") == null) {
 			Errors.appendLog(act, Errors.ERROR, "ComprovaSD",
-					"No s'ha pogut crear directori sdcard/sgb.orders", null,
+					"No s'ha pogut crear directori sgb.orders", null,
 					null, true);
 			return null;
 		} else {
 			if (fold.equals(Utilitats.CONFIG))
-				return comprovaFolder("/sgb.orders/" + Utilitats.CONFIG);
+				return comprovaFolder(ctx, "/sgb.orders/" + Utilitats.CONFIG);
 			if (fold.equals(Utilitats.WORK))
-				return comprovaFolder("/sgb.orders/" + Utilitats.WORK);
+				return comprovaFolder(ctx, "/sgb.orders/" + Utilitats.WORK);
 			if (fold.equals(Utilitats.BACKUP))
-				return comprovaFolder("/sgb.orders/" + Utilitats.BACKUP);
+				return comprovaFolder(ctx, "/sgb.orders/" + Utilitats.BACKUP);
 			if (fold.equals(Utilitats.IMPORT))
-				return comprovaFolder("/sgb.orders/" + Utilitats.IMPORT);
+				return comprovaFolder(ctx, "/sgb.orders/" + Utilitats.IMPORT);
 			if (fold.equals(Utilitats.EXPORT))
-				return comprovaFolder("/sgb.orders/" + Utilitats.EXPORT);
+				return comprovaFolder(ctx, "/sgb.orders/" + Utilitats.EXPORT);
 			if (fold.equals(Utilitats.IMPORTED))
-				return comprovaFolder("/sgb.orders/" + Utilitats.IMPORTED);
+				return comprovaFolder(ctx, "/sgb.orders/" + Utilitats.IMPORTED);
 			if (fold.equals(Utilitats.EXPORTED))
-				return comprovaFolder("/sgb.orders/" + Utilitats.EXPORTED);
+				return comprovaFolder(ctx,"/sgb.orders/" + Utilitats.EXPORTED);
 			if (fold.equals(Utilitats.LOGS))
-				return comprovaFolder("/sgb.orders/" + Utilitats.LOGS);
+				return comprovaFolder(ctx, "/sgb.orders/" + Utilitats.LOGS);
 			if (fold.equals(Utilitats.IMAGES))
-				return comprovaFolder("/sgb.orders/" + Utilitats.IMAGES);
+				return comprovaFolder(ctx, "/sgb.orders/" + Utilitats.IMAGES);
 		}
 		return null;
 	}
 
+	@SuppressLint("Range")
 	static public void enviarComandaPerMail(Activity act, OrdersHelper helper,
-			long docum) {
+											long docum) {
 		Boolean error = false;
 		StringBuffer bf = new StringBuffer();
 		String sql = "select * from Linia where docum = " + docum;
@@ -403,7 +406,7 @@ public class Utilitats {
 
 		if (error == false) {
 			curCli.moveToFirst();
-			String mail = curCli.getString(curCli.getColumnIndex("mail"));
+			@SuppressLint("Range") String mail = curCli.getString(curCli.getColumnIndex("mail"));
 
 			mail = "salvador@reset.es";
 
@@ -719,9 +722,10 @@ public class Utilitats {
 
 	}
 
+	@SuppressLint("Range")
 	static Boolean getDte(Activity act, OrdersHelper helper, String subjecte,
-			String tarifa, String article, String linia, String familia,
-			double quantitat, TPreus preus) {
+						  String tarifa, String article, String linia, String familia,
+						  double quantitat, TPreus preus) {
 
 		/*
 		 * Llegim per Ordre : Subjecte -Primer el client i després el comodin
@@ -800,9 +804,10 @@ public class Utilitats {
 		return preus;
 	}
 
+	@SuppressLint("Range")
 	static TPreus readPreus(Activity act, OrdersHelper helper, String subjecte,
-			String tarifa, String article, String familia, String linia,
-			double quantitat) {
+							String tarifa, String article, String familia, String linia,
+							double quantitat) {
 		TPreus preus = new TPreus();
 
 		/* Mirem si el client te descompte línia */

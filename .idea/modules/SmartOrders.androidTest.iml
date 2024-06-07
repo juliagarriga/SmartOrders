@@ -23,8 +23,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="SmartOrders.main" scope="TEST" />
     <orderEntry type="library" scope="TEST" name="Gradle: ./libs/android-support-v4.jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: ./libs/javacsv.jar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: ./libs/ftp4j-1.6.1.jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: ./libs/javacsv.jar" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="SmartOrders.main" />
 </module>

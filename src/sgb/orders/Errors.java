@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ContentValues;
 import android.content.DialogInterface;
+import android.os.Looper;
 import android.widget.Toast;
 
 import java.io.BufferedOutputStream;
@@ -13,6 +14,7 @@ import java.io.FileOutputStream;
 import java.io.PrintStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.logging.Handler;
 
 public class Errors {
 	public static final String ERROR = "E";
@@ -101,8 +103,12 @@ public class Errors {
 			
 			
 		} catch (FileNotFoundException e1) {
-			Toast.makeText(act, text + " " + e1.getMessage(), Toast.LENGTH_LONG)
-					.show();
+			act.runOnUiThread(new Runnable() {
+				public void run() {
+					Toast.makeText(act, text + " " + e1.getMessage(), Toast.LENGTH_LONG)
+							.show();
+				}
+			});
 		}
 
 	}
