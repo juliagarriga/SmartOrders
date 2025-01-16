@@ -299,6 +299,8 @@ public class ExportCsv extends Thread {
 					String nm = st.getName();
 					String vl = ctr.getString(ctr.getColumnIndex(nm));
 					if (vl==null) vl="";
+					vl.replace("\n", "");
+					vl.replace("\r", "");
 
 					cap.write((vl + ";")
 							.getBytes());

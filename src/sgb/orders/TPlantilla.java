@@ -92,7 +92,7 @@ public abstract class TPlantilla extends LinearLayout implements
 		if (v == this.ico_showlist)
         	act.getWindow().openPanel(Window.FEATURE_OPTIONS_PANEL, new
         			KeyEvent(KeyEvent.ACTION_DOWN, KeyEvent.KEYCODE_MENU));
-		
+			act.invalidateOptionsMenu();
 	}
 
 	void setButtonsProp(long vs, long id, Button v) {

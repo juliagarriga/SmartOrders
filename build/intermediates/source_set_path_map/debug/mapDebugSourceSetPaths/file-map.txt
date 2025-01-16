@@ -1,7 +1,7 @@
-sgb.orders-debug-0 /home/julia/Downloads/SmartOrders/build-types/debug/res
-sgb.orders-pngs-1 /home/julia/Downloads/SmartOrders/build/generated/res/pngs/debug
-sgb.orders-resValues-2 /home/julia/Downloads/SmartOrders/build/generated/res/resValues/debug
-sgb.orders-packageDebugResources-3 /home/julia/Downloads/SmartOrders/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-sgb.orders-packageDebugResources-4 /home/julia/Downloads/SmartOrders/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-sgb.orders-debug-5 /home/julia/Downloads/SmartOrders/build/intermediates/merged_res/debug/mergeDebugResources
-sgb.orders-SmartOrders-6 /home/julia/Downloads/SmartOrders/res
+sgb.orders-debug-0 /Users/juliagf/StudioProjects/SmartOrders/build-types/debug/res
+sgb.orders-pngs-1 /Users/juliagf/StudioProjects/SmartOrders/build/generated/res/pngs/debug
+sgb.orders-resValues-2 /Users/juliagf/StudioProjects/SmartOrders/build/generated/res/resValues/debug
+sgb.orders-packageDebugResources-3 /Users/juliagf/StudioProjects/SmartOrders/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+sgb.orders-packageDebugResources-4 /Users/juliagf/StudioProjects/SmartOrders/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+sgb.orders-debug-5 /Users/juliagf/StudioProjects/SmartOrders/build/intermediates/merged_res/debug/mergeDebugResources
+sgb.orders-SmartOrders-6 /Users/juliagf/StudioProjects/SmartOrders/res

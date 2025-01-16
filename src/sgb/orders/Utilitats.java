@@ -132,8 +132,9 @@ public class Utilitats {
 		return String.format("%1$-" + n + "s", s);
 	}
 
+	@SuppressLint("Range")
 	static public String QueryField(OrdersHelper helper, String sql,
-			String field) {
+									String field) {
 		if (Query(helper, sql) == null)
 			return null;
 		else

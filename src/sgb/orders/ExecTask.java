@@ -324,23 +324,23 @@ public class ExecTask extends Activity {
 			startActivity(it);
 		}
 
-		if (item.getItemId() == R.id.gpsstart) {
-			// bindService(new Intent(this, GpsService.class), mConnection,
-			// Context.BIND_AUTO_CREATE);
-
-			svc = new Intent(this, GpsServiceThread.class);
-			startService(svc);
-			Toast.makeText(getApplicationContext(), "Arrancant Servei Gps",
-					Toast.LENGTH_SHORT).show();
+		if (item.getItemId() == R.id.articles) {
+			Intent intent = new Intent(this,
+					ExecTask.class);
+			intent.putExtra("parametre1", 0);
+			intent.putExtra("parametre2", 0);
+			intent.putExtra("programa", "Linia");
+			startActivity(intent);
 
 		}
 
-		if (item.getItemId() == R.id.gpsstop) {
-			stopService(new Intent(this, GpsServiceThread.class));
-			// unbindService(mConnection);
+		if (item.getItemId() == R.id.clients) {
+			Intent intent = new Intent(this,
+					ExecTask.class);
 
-			Toast.makeText(getApplicationContext(), "Parant Servei Gps",
-					Toast.LENGTH_SHORT).show();
+			intent.putExtra("parametre1", "");
+			intent.putExtra("programa", "LlistaClientsRuta");
+			startActivity(intent);
 		}
 		if (item.getItemId() == R.id.gps) {
 			try {

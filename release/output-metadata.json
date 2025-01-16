@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "artifactType": {
     "type": "APK",
     "kind": "Directory"
@@ -10,9 +10,12 @@
     {
       "type": "SINGLE",
       "filters": [],
+      "attributes": [],
       "versionCode": 14,
       "versionName": "1.14",
       "outputFile": "SmartOrders-release.apk"
     }
-  ]
+  ],
+  "elementType": "File",
+  "minSdkVersionForDexing": 19
 }

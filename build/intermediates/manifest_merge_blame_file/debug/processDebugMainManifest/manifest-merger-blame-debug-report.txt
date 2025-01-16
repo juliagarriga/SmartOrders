@@ -9,151 +9,151 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-11-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:6:5-76
-11-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:6:22-73
+11-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:6:5-76
+11-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:6:22-73
 12    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-12-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:7:5-77
-12-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:7:22-74
+12-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:7:5-77
+12-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:7:22-74
 13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-13-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:7:5-77
-13-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:7:22-74
+13-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:7:5-77
+13-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:7:22-74
 14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-14-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:9:5-81
-14-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:9:22-78
+14-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:9:5-81
+14-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:9:22-78
 15    <uses-permission android:name="android.permission.WAKE_LOCK" />
-15-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:10:5-68
-15-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:10:22-65
+15-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:10:5-68
+15-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:10:22-65
 16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-16-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:11:5-80
-16-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:11:22-77
+16-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:11:5-80
+16-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:11:22-77
 17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-17-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:12:5-81
-17-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:12:22-78
+17-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:12:5-81
+17-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:12:22-78
 18    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
-18-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:13:5-81
-18-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:13:22-78
+18-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:13:5-81
+18-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:13:22-78
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:14:5-79
-19-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:14:22-76
+19-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:14:5-79
+19-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:14:22-76
 20    <uses-permission android:name="android.permission.INTERNET" />
-20-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:15:5-67
-20-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:15:22-64
+20-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:15:5-67
+20-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:15:22-64
 21    <uses-permission android:name="android.permission.EXTERNAL_STORAGE" />
-21-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:16:5-75
-21-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:16:22-72
+21-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:16:5-75
+21-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:16:22-72
 22    <uses-permission android:name="android.permission.WRITE_OWNER_DATA" />
-22-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:17:5-75
-22-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:17:22-72
+22-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:17:5-75
+22-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:17:22-72
 23    <uses-permission android:name="android.permission.VIBRATE" />
-23-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:18:5-66
-23-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:18:22-63
+23-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:18:5-66
+23-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:18:22-63
 24    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-24-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:19:5-79
-24-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:19:22-76
+24-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:19:5-79
+24-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:19:22-76
 25    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-25-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:20:5-81
-25-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:20:22-78
+25-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:20:5-81
+25-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:20:22-78
 26    <uses-permission android:name="android.permission.CAMERA" />
-26-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:21:5-65
-26-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:21:22-62
+26-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:21:5-65
+26-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:21:22-62
 27
 28    <uses-feature android:name="android.hardware.camera" />
-28-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:23:5-60
-28-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:23:19-57
+28-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:23:5-60
+28-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:23:19-57
 29    <uses-feature android:name="android.hardware.telephony" />
-29-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:24:5-63
-29-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:24:19-60
+29-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:24:5-63
+29-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:24:19-60
 30
 31    <uses-permission android:name="android.permission.CALL_PHONE" />
-31-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:25:5-69
-31-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:25:22-66
+31-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:25:5-69
+31-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:25:22-66
 32
 33    <application
-33-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:27:5-73:19
+33-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:27:5-73:19
 34        android:name="sgb.orders.SmartApplication"
-34-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:28:9-40
+34-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:28:9-40
 35        android:debuggable="true"
 36        android:extractNativeLibs="true"
 37        android:icon="@drawable/appico"
-37-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:29:9-40
+37-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:29:9-40
 38        android:label="@string/app_name"
-38-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:30:9-41
+38-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:30:9-41
 39        android:testOnly="true" >
 40        <activity
-40-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:31:9-41:20
+40-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:31:9-41:20
 41            android:name="sgb.orders.MenuOrders"
-41-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:32:13-39
+41-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:32:13-39
 42            android:exported="true"
-42-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:34:13-36
+42-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:34:13-36
 43            android:label="@string/app_name"
-43-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:33:13-45
+43-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:33:13-45
 44            android:screenOrientation="portrait" >
-44-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:35:13-49
+44-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:35:13-49
 45            <intent-filter>
-45-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:36:13-40:29
+45-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:36:13-40:29
 46                <action android:name="android.intent.action.MAIN" />
-46-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:37:17-69
-46-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:37:25-66
+46-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:37:17-69
+46-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:37:25-66
 47
 48                <category android:name="android.intent.category.LAUNCHER" />
-48-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:39:17-77
-48-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:39:27-74
+48-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:39:17-77
+48-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:39:27-74
 49            </intent-filter>
 50        </activity>
 51        <activity
-51-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:42:9-46:20
+51-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:42:9-46:20
 52            android:name="sgb.orders.ExecTask"
-52-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:43:13-37
+52-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:43:13-37
 53            android:screenOrientation="portrait"
-53-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:44:13-49
+53-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:44:13-49
 54            android:windowSoftInputMode="adjustPan" >
-54-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:45:13-52
+54-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:45:13-52
 55        </activity>
 56        <activity
-56-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:47:9-50:20
+56-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:47:9-50:20
 57            android:name="sgb.orders.WebViewActivity"
-57-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:48:13-44
+57-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:48:13-44
 58            android:screenOrientation="portrait" >
-58-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:49:13-49
+58-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:49:13-49
 59        </activity>
 60        <activity
-60-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:51:9-55:20
+60-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:51:9-55:20
 61            android:name="sgb.orders.DialogError"
-61-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:52:13-40
+61-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:52:13-40
 62            android:screenOrientation="portrait"
-62-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:53:13-49
+62-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:53:13-49
 63            android:theme="@style/Theme.Transparent" >
-63-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:54:13-53
+63-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:54:13-53
 64        </activity>
 65        <activity
-65-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:56:9-59:20
+65-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:56:9-59:20
 66            android:name="sgb.orders.ImpExp2014"
-66-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:57:13-39
+66-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:57:13-39
 67            android:screenOrientation="portrait" >
-67-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:58:13-49
+67-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:58:13-49
 68        </activity>
 69        <activity
-69-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:60:9-63:20
+69-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:60:9-63:20
 70            android:name="sgb.orders.ImpMaps"
-70-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:61:13-36
+70-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:61:13-36
 71            android:screenOrientation="portrait" >
-71-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:62:13-49
+71-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:62:13-49
 72        </activity>
 73        <activity
-73-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:64:9-67:20
+73-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:64:9-67:20
 74            android:name="sgb.orders.ImpExp"
-74-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:65:13-35
+74-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:65:13-35
 75            android:screenOrientation="portrait" >
-75-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:66:13-49
+75-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:66:13-49
 76        </activity>
 77        <activity android:name="sgb.orders.Cataleg" >
-77-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:68:9-69:20
-77-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:68:19-42
+77-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:68:9-69:20
+77-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:68:19-42
 78        </activity>
 79
 80        <service android:name="sgb.orders.GpsServiceThread" >
-80-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:71:9-72:19
-80-->/home/julia/Downloads/SmartOrders/AndroidManifest.xml:71:18-49
+80-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:71:9-72:19
+80-->/Users/juliagf/StudioProjects/SmartOrders/AndroidManifest.xml:71:18-49
 81        </service>
 82    </application>
 83

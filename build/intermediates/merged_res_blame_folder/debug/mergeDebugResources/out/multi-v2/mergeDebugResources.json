@@ -4,52 +4,14 @@
             "outputFile": "sgb.orders-debug-5:/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/home/julia/Downloads/SmartOrders/res/values/arrays.xml",
-                    "from": {
-                        "startLines": "3,7,19,12",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "59,197,625,364",
-                        "endLines": "6,11,25,18",
-                        "endColumns": "19,19,19,19",
-                        "endOffsets": "191,358,849,619"
-                    },
-                    "to": {
-                        "startLines": "2,6,34,41",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,189,1144,1367",
-                        "endLines": "5,10,40,47",
-                        "endColumns": "19,19,19,19",
-                        "endOffsets": "184,346,1362,1616"
-                    }
-                },
-                {
-                    "source": "/home/julia/Downloads/SmartOrders/res/values/strings.xml",
-                    "from": {
-                        "startLines": "14,34,44,26,25,9,3,10,32,28,23,22,5,31,4,30,11,12,8,7,20,29,21,6",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "553,1367,1659,918,877,357,59,404,1282,961,834,792,151,1206,110,1138,449,504,308,255,691,1060,741,200",
-                        "endLines": "18,42,52,26,25,9,3,10,32,28,23,22,5,31,4,30,11,12,8,7,20,29,21,6",
-                        "endColumns": "19,19,12,39,39,45,49,43,81,97,39,40,47,74,39,66,53,45,47,51,48,76,49,53",
-                        "endOffsets": "683,1651,2043,953,912,398,104,443,1359,1054,869,828,194,1276,145,1200,498,545,351,302,735,1132,786,249"
-                    },
-                    "to": {
-                        "startLines": "11,16,25,66,84,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "351,482,763,2554,3432,3668,3714,3764,3808,3890,3988,4028,4069,4117,4192,4224,4291,4345,4391,4439,4491,4540,4617,4667",
-                        "endLines": "15,24,33,66,84,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107",
-                        "endColumns": "19,19,12,39,39,45,49,43,81,97,39,40,47,74,31,66,53,45,47,51,48,76,49,53",
-                        "endOffsets": "477,758,1139,2589,3467,3709,3759,3803,3885,3983,4023,4064,4112,4187,4219,4286,4340,4386,4434,4486,4535,4612,4662,4716"
-                    }
-                },
-                {
-                    "source": "/home/julia/Downloads/SmartOrders/res/values/themes.xml",
+                    "source": "/Users/juliagf/StudioProjects/SmartOrders/res/values/themes.xml",
                     "from": {
                         "startLines": "3,26,8",
                         "startColumns": "1,1,1",
-                        "startOffsets": "56,1150,206",
+                        "startOffsets": "53,1124,198",
                         "endLines": "6,41,24",
                         "endColumns": "9,9,9",
-                        "endOffsets": "201,1999,1144"
+                        "endOffsets": "195,1958,1120"
                     },
                     "to": {
                         "startLines": "123,127,151",
@@ -61,26 +23,26 @@
                     }
                 },
                 {
-                    "source": "/home/julia/Downloads/SmartOrders/res/values/boto.xml",
+                    "source": "/Users/juliagf/StudioProjects/SmartOrders/res/values/strings.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "16",
-                        "endColumns": "12",
-                        "endOffsets": "844"
+                        "startLines": "14,34,44,26,25,9,3,10,32,28,23,22,5,31,4,30,11,12,8,7,20,29,21,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "539,1333,1615,892,852,348,56,394,1250,933,811,770,146,1175,106,1108,438,492,300,248,671,1031,720,194",
+                        "endLines": "18,42,52,26,25,9,3,10,32,28,23,22,5,31,4,30,11,12,8,7,20,29,21,6",
+                        "endColumns": "19,19,12,39,39,45,49,43,81,97,39,40,47,74,39,66,53,45,47,51,48,76,49,53",
+                        "endOffsets": "665,1609,1991,927,887,389,101,433,1327,1026,846,806,189,1245,141,1170,487,533,343,295,715,1103,765,243"
                     },
                     "to": {
-                        "startLines": "108",
-                        "startColumns": "4",
-                        "startOffsets": "4721",
-                        "endLines": "122",
-                        "endColumns": "12",
-                        "endOffsets": "5494"
+                        "startLines": "11,16,25,66,84,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "351,482,763,2554,3432,3668,3714,3764,3808,3890,3988,4028,4069,4117,4192,4224,4291,4345,4391,4439,4491,4540,4617,4667",
+                        "endLines": "15,24,33,66,84,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107",
+                        "endColumns": "19,19,12,39,39,45,49,43,81,97,39,40,47,74,31,66,53,45,47,51,48,76,49,53",
+                        "endOffsets": "477,758,1139,2589,3467,3709,3759,3803,3885,3983,4023,4064,4112,4187,4219,4286,4340,4386,4434,4486,4535,4612,4662,4716"
                     }
                 },
                 {
-                    "source": "/home/julia/Downloads/SmartOrders/res/values/colors.xml",
+                    "source": "/Users/juliagf/StudioProjects/SmartOrders/res/values/colors.xml",
                     "from": {
                         "startLines": "17,29,28,27,14,13,18,21,22,19,23,24,25,20,26,15,16,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,1",
@@ -97,7 +59,45 @@
                     }
                 },
                 {
-                    "source": "/home/julia/Downloads/SmartOrders/res/values/styles.xml",
+                    "source": "/Users/juliagf/StudioProjects/SmartOrders/res/values/boto.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "16",
+                        "endColumns": "12",
+                        "endOffsets": "828"
+                    },
+                    "to": {
+                        "startLines": "108",
+                        "startColumns": "4",
+                        "startOffsets": "4721",
+                        "endLines": "122",
+                        "endColumns": "12",
+                        "endOffsets": "5494"
+                    }
+                },
+                {
+                    "source": "/Users/juliagf/StudioProjects/SmartOrders/res/values/arrays.xml",
+                    "from": {
+                        "startLines": "3,7,19,12",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "56,190,606,352",
+                        "endLines": "6,11,25,18",
+                        "endColumns": "19,19,19,19",
+                        "endOffsets": "185,347,824,601"
+                    },
+                    "to": {
+                        "startLines": "2,6,34,41",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,189,1144,1367",
+                        "endLines": "5,10,40,47",
+                        "endColumns": "19,19,19,19",
+                        "endOffsets": "184,346,1362,1616"
+                    }
+                },
+                {
+                    "source": "/Users/juliagf/StudioProjects/SmartOrders/res/values/styles.xml",
                     "from": {
                         "startLines": "19,118,18,117,213,79,177,89,7,109,207,103,197,182,21,120,31,125,164,170,62,151,68,159,52,142,35,48,140,129,74,172",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -116,13 +116,13 @@
                     }
                 },
                 {
-                    "source": "/home/julia/Downloads/SmartOrders/res/values/attrs.xml",
+                    "source": "/Users/juliagf/StudioProjects/SmartOrders/res/values/attrs.xml",
                     "from": {
                         "startLines": "14,22,18,15,17,16,4,21,5,11,12,9,10,8,6,7,13",
                         "startColumns": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-                        "startOffsets": "598,907,779,642,730,684,79,849,131,433,483,337,384,286,186,233,545",
+                        "startOffsets": "584,885,761,627,713,668,75,828,126,422,471,328,374,278,180,226,532",
                         "endColumns": "42,63,43,40,47,44,50,56,53,48,60,45,47,49,45,51,51",
-                        "endOffsets": "639,969,821,681,776,727,128,904,183,480,542,381,430,334,230,283,595"
+                        "endOffsets": "625,947,803,666,759,711,124,883,178,469,530,372,420,326,224,276,582"
                     },
                     "to": {
                         "startLines": "48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64",

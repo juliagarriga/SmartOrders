@@ -1,638 +1,642 @@
 [
     {
-        "merged": "sgb.orders-debug-5:/drawable_title_bar_wh.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/title_bar_wh.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_middle.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/middle.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_ic_menu_preferences.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/ic_menu_preferences.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/menu_option.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/menu/option.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_animated_button1.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/animated_button1.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable-ldpi_users.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable-ldpi/users.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_checkmark.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/checkmark.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable-ldpi_nuevo.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable-ldpi/nuevo.png"
+    },
+    {
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_notes.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/notes.png"
     },
     {
         "merged": "sgb.orders-debug-5:/menu_option.xml.flat",
         "source": "sgb.orders-SmartOrders-6:/menu/option.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_send.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/send.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable-hdpi_users.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable-hdpi/users.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable-mdpi_icon.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable-mdpi/icon.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/raw_insert.mp3.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/raw/insert.mp3"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_calendar.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/calendar.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_dialogpreferences.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/dialogpreferences.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_image_bg.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/image_bg.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_ball_green.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/ball_green.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_restaurant.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/restaurant.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_checkmark.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/checkmark.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_activity_upload_documents.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/activity_upload_documents.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_button_wh.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/button_wh.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_cataleg.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/cataleg.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_ic_action_settings.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/ic_action_settings.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/raw_fi_transmissio.mp3.flat",
-        "source": "sgb.orders-SmartOrders-6:/raw/fi_transmissio.mp3"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable-hdpi_nuevo.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable-hdpi/nuevo.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/xml_preferences.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/xml/preferences.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_copyofmainpager.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/copyofmainpager.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_dialogregal.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/dialogregal.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_button_bl_normal.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/button_bl_normal.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_clients2.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/clients2.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable-mdpi_icon.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable-mdpi/icon.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_groups_row.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/groups_row.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_ic_action_place.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/ic_action_place.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable-hdpi_calendar.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable-hdpi/calendar.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_ic_menu_back.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/ic_menu_back.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_record.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/record.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_copyoftplantillalist_row.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/copyoftplantillalist_row.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_camera.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/camera.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/xml_preferences.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/xml/preferences.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_ic_menu_compass.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/ic_menu_compass.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_gray_gradient_background.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/gray_gradient_background.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/color_text_bl_regular.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/color/text_bl_regular.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_delete.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/delete.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_rutes.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/rutes.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_menu.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/menu.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_button_wh.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/button_wh.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_toast.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/toast.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_ic_menu_end_call.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/ic_menu_end_call.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_help.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/help.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/color_text_wh_large.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/color/text_wh_large.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_camera.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/camera.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_ic_menu_save.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/ic_menu_save.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_ic_menu_add.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/ic_menu_add.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable-hdpi_save.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable-hdpi/save.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_calendar.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/calendar.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_dialogerror.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/dialogerror.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/raw_ok.mp3.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/raw/ok.mp3"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_search_48.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/search_48.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_product.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/product.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_orderslist.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/orderslist.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_list_selector.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/list_selector.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_ic_action_event.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/ic_action_event.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_ic_menu_end_call.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/ic_menu_end_call.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_button_wh_pressed.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/button_wh_pressed.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_search_48.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/search_48.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_subgroups_row.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/subgroups_row.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_ic_action_star.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/ic_action_star.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_list_selector_linies.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/list_selector_linies.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_navigator.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/navigator.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_copyoftplantillalist_row.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/copyoftplantillalist_row.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_design.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/design.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/anim_flipin.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/anim/flipin.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/raw_fi_transmissio.mp3.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/raw/fi_transmissio.mp3"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_lock.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/lock.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_row.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/row.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_ic_action_star.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/ic_action_star.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_dialogerror.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/dialogerror.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_white_container_bl.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/white_container_bl.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable-hdpi_save.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable-hdpi/save.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_articles.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/articles.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_webviewactivity.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/webviewactivity.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_phone.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/phone.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_list_divider_wh.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/list_divider_wh.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_ic_action_share.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/ic_action_share.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/anim_flipout.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/anim/flipout.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_header.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/header.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_botons.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/botons.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_grupros.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/grupros.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout-land_detail_form.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout-land/detail_form.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_white_container_wh.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/white_container_wh.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_list_item_bl.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/list_item_bl.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_ic_menu_help.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/ic_menu_help.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_ic_menu_help.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/ic_menu_help.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/anim_flipout_reverse.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/anim/flipout_reverse.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_gradient_bg.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/gradient_bg.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_list_item_bl.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/list_item_bl.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_button_wh_normal.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/button_wh_normal.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_ic_action_settings.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/ic_action_settings.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_orderslist.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/orderslist.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_impexp.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/impexp.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_run.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/run.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/raw_color.mp3.flat",
-        "source": "sgb.orders-SmartOrders-6:/raw/color.mp3"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_save.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/save.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_back.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/back.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_tplantillalist.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/tplantillalist.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_ic_drawer.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/ic_drawer.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_camera.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/camera.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable-mdpi_calendar.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable-mdpi/calendar.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_clients2.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/clients2.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_mainlogo.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/mainlogo.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_grupros.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/grupros.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_subgroup.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/subgroup.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_rutes.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/rutes.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/raw_ok.mp3.flat",
-        "source": "sgb.orders-SmartOrders-6:/raw/ok.mp3"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_restaurant.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/restaurant.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_nuevo.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/nuevo.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_nuevo.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/nuevo.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_ic_menu_back.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/ic_menu_back.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_nuevo2.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/nuevo2.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/anim_flipout.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/anim/flipout.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_group_spinner_row.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/group_spinner_row.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_row.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/row.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_boto_cercle.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/boto_cercle.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_user_icon.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/user_icon.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_lock_open.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/lock_open.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_help.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/help.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_groups_row.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/groups_row.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_gradient_bg.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/gradient_bg.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_linies.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/linies.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_middle.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/middle.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_button_bl.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/button_bl.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable-ldpi_icon.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable-ldpi/icon.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable-mdpi_calendar.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable-mdpi/calendar.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_podcast.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/podcast.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_dialogregal.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/dialogregal.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_reset.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/reset.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_itm.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/itm.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_tick.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/tick.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_subgroups_row.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/subgroups_row.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_ic_menu_agenda.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/ic_menu_agenda.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_reset.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/reset.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_delete.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/delete.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_white_container_bl.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/white_container_bl.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_ic_menu_delete.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/ic_menu_delete.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_list_divider_bl.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/list_divider_bl.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/color_text_wh_regular.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/color/text_wh_regular.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_hihgcopia.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/hihgcopia.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_boto_cercle.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/boto_cercle.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_gradient2_bg.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/gradient2_bg.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_list.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/list.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_ic_action_user.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/ic_action_user.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_tplantillalist_row.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/tplantillalist_row.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/color_text_wh_large.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/color/text_wh_large.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_copyofmainpager.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/copyofmainpager.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_mapa.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/mapa.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_articles_row.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/articles_row.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/color_text_bl_regular.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/color/text_bl_regular.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_farright.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/farright.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_edittext_rounded_corners.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/edittext_rounded_corners.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_ic_menu_show_list.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/ic_menu_show_list.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_button_wh_pressed.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/button_wh_pressed.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable-ldpi_save.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable-ldpi/save.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_mainpager.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/mainpager.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_design.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/design.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/raw_color.mp3.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/raw/color.mp3"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_run.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/run.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_list_item_wh.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/list_item_wh.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_find_product.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/find_product.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_ic_menu_save.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/ic_menu_save.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_add.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/add.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_ball_red.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/ball_red.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable-mdpi_nuevo.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable-mdpi/nuevo.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_ic_action_event.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/ic_action_event.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable-mdpi_users.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable-mdpi/users.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_image_bg.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/image_bg.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_list_item_wh_pressed.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/list_item_wh_pressed.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_tplantillalist_row.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/tplantillalist_row.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_list_item_wh.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/list_item_wh.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_title_bar_wh.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/title_bar_wh.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_list_divider_bl.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/list_divider_bl.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_list_item_wh_selected.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/list_item_wh_selected.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_button_wh_normal.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/button_wh_normal.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_notification_layout.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/notification_layout.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/raw_capella.ogg.flat",
-        "source": "sgb.orders-SmartOrders-6:/raw/capella.ogg"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_ic_action_labels.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/ic_action_labels.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_dialogpreferences.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/dialogpreferences.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_send.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/send.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable-mdpi_save.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable-mdpi/save.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_r96wbv06.bmp.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/r96wbv06.bmp"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_botons.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/botons.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/raw_capella.ogg.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/raw/capella.ogg"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_users.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/users.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable-mdpi_save.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable-mdpi/save.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_camera.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/camera.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_mainlogo.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/mainlogo.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_notes.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/notes.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_ic_menu_preferences.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/ic_menu_preferences.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable-hdpi_icon.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable-hdpi/icon.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_arrow_left.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/arrow_left.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_image2_bg.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/image2_bg.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_detail_form.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/detail_form.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_product.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/product.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_subgroup.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/subgroup.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_nuevo2.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/nuevo2.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable-ldpi_save.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable-ldpi/save.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_r96wbv06.bmp.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/r96wbv06.bmp"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable-hdpi_calendar.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable-hdpi/calendar.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_save.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/save.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_group.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/group.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_group.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/group.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_phone.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/phone.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_dialoglinia.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/dialoglinia.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/menu_querymenu.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/menu/querymenu.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_ball_red.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/ball_red.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_button_wh_selected.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/button_wh_selected.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_gray_gradient_background.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/gray_gradient_background.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_gradient_bg_hover.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/gradient_bg_hover.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_webviewactivity.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/webviewactivity.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_ic_menu_show_list.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/ic_menu_show_list.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_detail_form.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/detail_form.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_querytool.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/querytool.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_appico.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/appico.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_impexp.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/impexp.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_toast.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/toast.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_podcast.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/podcast.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_itm.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/itm.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_dialoglinia.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/dialoglinia.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_arrow_left.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/arrow_left.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_viewflipper.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/viewflipper.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_ic_action_user.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/ic_action_user.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_ic_menu_compass.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/ic_menu_compass.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_tplantillalist.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/tplantillalist.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_white_container_wh.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/white_container_wh.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_gradient_bg_hover.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/gradient_bg_hover.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_animated_button1.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/animated_button1.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_icon.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/icon.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_image2_bg.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/image2_bg.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_group_spinner_row.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/group_spinner_row.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_users.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/users.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_ic_action_labels.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/ic_action_labels.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_ic_action_share.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/ic_action_share.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_button_wh_selected.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/button_wh_selected.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_cataleg.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/cataleg.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable-ldpi_nuevo.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable-ldpi/nuevo.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_list_item_wh_pressed.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/list_item_wh_pressed.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable-ldpi_users.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable-ldpi/users.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable-hdpi_icon.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable-hdpi/icon.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_button_bl_normal.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/button_bl_normal.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_products_row.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/products_row.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable-ldpi_calendar.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable-ldpi/calendar.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_back.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/back.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_list_selector.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/list_selector.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_find_product.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/find_product.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable-hdpi_nuevo.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable-hdpi/nuevo.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/color_text_wh_regular.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/color/text_wh_regular.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_lock_open.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/lock_open.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_articles_row.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/articles_row.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable-hdpi_users.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable-hdpi/users.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_ic_launcher.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/ic_launcher.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_querytool.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/querytool.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_record.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/record.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_cap2.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/cap2.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable-mdpi_nuevo.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable-mdpi/nuevo.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_ic_launcher.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/ic_launcher.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_articles.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/articles.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_ic_menu_sorta.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/ic_menu_sorta.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_tick.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/tick.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_icono.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/icono.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable-mdpi_users.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable-mdpi/users.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_ball_green.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/ball_green.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_ic_drawer.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/ic_drawer.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_products_row.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/products_row.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_icon.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/icon.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_viewflipper.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/viewflipper.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_list.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/list.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/anim_flipin_reverse.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/anim/flipin_reverse.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_appico.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/appico.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_cap.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/cap.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_lock.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/lock.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_navigator.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/navigator.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_farright.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/farright.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_taques.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/taques.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable-ldpi_calendar.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable-ldpi/calendar.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_mapa.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/mapa.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_cap2.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/cap2.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/raw_insert.mp3.flat",
-        "source": "sgb.orders-SmartOrders-6:/raw/insert.mp3"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_header.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/header.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout-land_detail_form.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout-land/detail_form.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_clients.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/clients.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_mainpager.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/mainpager.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/anim_flipout_reverse.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/anim/flipout_reverse.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_menu.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/menu.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/anim_flipin.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/anim/flipin.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/menu_querymenu.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/menu/querymenu.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_user_icon.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/user_icon.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_gradient2_bg.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/gradient2_bg.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_activity_upload_documents.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/activity_upload_documents.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_button_bl.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/button_bl.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_add.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/add.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_ic_action_place.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/ic_action_place.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_icono.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/icono.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_list_divider_wh.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/list_divider_wh.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/anim_flipin_reverse.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/anim/flipin_reverse.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_ic_menu_add.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/ic_menu_add.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/layout_cap.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/layout/cap.xml"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_list_item_wh_selected.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/list_item_wh_selected.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable-ldpi_icon.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable-ldpi/icon.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_clients.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/clients.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_ic_menu_sorta.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/ic_menu_sorta.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_hihgcopia.png.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/hihgcopia.png"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_ic_menu_agenda.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/ic_menu_agenda.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_linies.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/linies.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_taques.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/taques.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/drawable_edittext_rounded_corners.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/drawable/edittext_rounded_corners.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_ic_menu_delete.png.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/ic_menu_delete.png"
     },
     {
-        "merged": "sgb.orders-debug-5:/layout_notification_layout.xml.flat",
-        "source": "sgb.orders-SmartOrders-6:/layout/notification_layout.xml"
+        "merged": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-debug-5:/drawable_list_selector_linies.xml.flat",
+        "source": "/Users/juliagf/.gradle/daemon/8.6/sgb.orders-SmartOrders-6:/drawable/list_selector_linies.xml"
     }
 ]

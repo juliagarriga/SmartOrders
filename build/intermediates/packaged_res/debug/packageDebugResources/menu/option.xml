@@ -26,11 +26,11 @@
         android:title="Utilitats">
         <menu>
             <item
-                android:id="@+id/gpsstart"
-                android:title="Gps Start"/>
+                android:id="@+id/articles"
+                android:title="Articles"/>
             <item
-                android:id="@+id/gpsstop"
-                android:title="Gps Stop"/>
+                android:id="@+id/clients"
+                android:title="Clients"/>
             <item
                 android:id="@+id/init"
                 android:title="Inicialitza"/>
